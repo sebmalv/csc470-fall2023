@@ -1,0 +1,315 @@
+Unity Editor version:    2022.3.8f1 (b5eafc012955)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.2.1 (Build 21D62)
+Darwin version:          21.3.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.8f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/sebmalvarenga/unity projects/csc470-fall2023/assignments/Assignment 2
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56458
+Successfully changed project path to: /Users/sebmalvarenga/unity projects/csc470-fall2023/assignments/Assignment 2
+/Users/sebmalvarenga/unity projects/csc470-fall2023/assignments/Assignment 2
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [4714743296] Host "[IP] 192.168.1.152 [Port] 0 [Flags] 2 [Guid] 4038055014 [EditorId] 4038055014 [Version] 1048832 [Id] OSXEditor(0,Sebastians-Air) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [4714743296] Host "[IP] 192.168.1.152 [Port] 0 [Flags] 2 [Guid] 4038055014 [EditorId] 4038055014 [Version] 1048832 [Id] OSXEditor(0,Sebastians-Air) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 13.03 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.8f1 (b5eafc012955)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.8f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/sebmalvarenga/unity projects/csc470-fall2023/assignments/Assignment 2/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics (low power)
+Metal devices available: 1
+0: Intel(R) Iris(TM) Plus Graphics (low power)
+Using device Intel(R) Iris(TM) Plus Graphics (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.8f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.8f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.8f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56114
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.8f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.8f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.006139 seconds.
+- Loaded All Assemblies, in  1.731 seconds
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.168 seconds
+Domain Reload Profiling: 2899ms
+	BeginReloadAssembly (350ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (3ms)
+	RebuildCommonClasses (237ms)
+	RebuildNativeTypeToScriptingClass (83ms)
+	initialDomainReloadingComplete (248ms)
+	LoadAllAssembliesAndSetupDomain (812ms)
+		LoadAssemblies (350ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (805ms)
+			TypeCache.Refresh (797ms)
+				TypeCache.ScanAssembly (736ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (1169ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (853ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (35ms)
+			SetLoadedEditorAssemblies (27ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (10ms)
+			ProcessInitializeOnLoadAttributes (580ms)
+			ProcessInitializeOnLoadMethodAttributes (201ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.359 seconds
+Refreshing native plugins compatible for Editor in 3.24 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.313 seconds
+Domain Reload Profiling: 5674ms
+	BeginReloadAssembly (470ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (23ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (104ms)
+	RebuildCommonClasses (157ms)
+	RebuildNativeTypeToScriptingClass (47ms)
+	initialDomainReloadingComplete (150ms)
+	LoadAllAssembliesAndSetupDomain (1536ms)
+		LoadAssemblies (906ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (842ms)
+			TypeCache.Refresh (754ms)
+				TypeCache.ScanAssembly (704ms)
+			ScanForSourceGeneratedMonoScriptInfo (60ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (3315ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2543ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (15ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (194ms)
+			ProcessInitializeOnLoadAttributes (2200ms)
+			ProcessInitializeOnLoadMethodAttributes (110ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.8f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.21 seconds
+Refreshing native plugins compatible for Editor in 4.06 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3263 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (1.3 MB). Loaded Objects now: 3741.
+Memory consumption went from 254.6 MB to 253.3 MB.
+Total: 10.266974 ms (FindLiveObjects: 0.575577 ms CreateObjectMapping: 0.322901 ms MarkObjects: 8.235483 ms  DeleteObjects: 1.129770 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 268680.207148 seconds.
+  path: Assets/New Terrain 1.asset
+  artifactKey: Guid(450c63913c4844691b559328d7bc1d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 1.asset using Guid(450c63913c4844691b559328d7bc1d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad4a3ef461f293bf1e2792f0edb9c80d') in 0.196292 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 7.10 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 13 unused Assets / (1.3 MB). Loaded Objects now: 3744.
+Memory consumption went from 195.6 MB to 194.4 MB.
+Total: 6.712558 ms (FindLiveObjects: 0.311231 ms CreateObjectMapping: 0.187314 ms MarkObjects: 5.751787 ms  DeleteObjects: 0.460557 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 282.991836 seconds.
+  path: Assets/Shiba inu/Dog.obj
+  artifactKey: Guid(86e9895a0ffee4406b17b3ab70e2bb86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shiba inu/Dog.obj using Guid(86e9895a0ffee4406b17b3ab70e2bb86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2ef6a925c0189cf3dca8cba37ed3f8d') in 0.218527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 3.517498 seconds.
+  path: Assets/Ring tailed cat/RingtailedCat.obj
+  artifactKey: Guid(ae7770c3e74a943a584215bcaa1ce6f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ring tailed cat/RingtailedCat.obj using Guid(ae7770c3e74a943a584215bcaa1ce6f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f44a581f279074d10ac18ea9ede5cc1') in 0.054482 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 1.906235 seconds.
+  path: Assets/Cat/Cat_01(1).obj
+  artifactKey: Guid(4691bf827e3204675af555a9418301b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cat/Cat_01(1).obj using Guid(4691bf827e3204675af555a9418301b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '295bf870f96a734f9901892ac45c8f46') in 0.046521 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 126.278954 seconds.
+  path: Assets/African WD.prefab
+  artifactKey: Guid(765937ee6dc5b49c68a544c24531c62b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/African WD.prefab using Guid(765937ee6dc5b49c68a544c24531c62b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6246715b8c1ecb9d3f4533beb0610b9') in 0.018321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 177.983886 seconds.
+  path: Assets/TerrainData_b9a13f0b-b929-4e2f-81ad-6d90ecb37a21.asset
+  artifactKey: Guid(258ca3dedf03e42f7bd97d25f91d4fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_b9a13f0b-b929-4e2f-81ad-6d90ecb37a21.asset using Guid(258ca3dedf03e42f7bd97d25f91d4fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fea72c35fd1a94acec1774887791001') in 0.015600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.365441 seconds.
+  path: Assets/TerrainData_1aab8e9f-765b-4a4e-9071-8a30ede7b669.asset
+  artifactKey: Guid(4933b9870266742bcb607c5d30217165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_1aab8e9f-765b-4a4e-9071-8a30ede7b669.asset using Guid(4933b9870266742bcb607c5d30217165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc2b106686423cb8aa7015698788f7b8') in 0.012971 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.664138 seconds.
+  path: Assets/TerrainData_45876d29-2e7e-49fb-9e91-7db994e29c71.asset
+  artifactKey: Guid(bbf2fab789c1d41edacf9b60065e09e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_45876d29-2e7e-49fb-9e91-7db994e29c71.asset using Guid(bbf2fab789c1d41edacf9b60065e09e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3971b77994b626d1cc04cc1e198a8959') in 0.011940 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.500749 seconds.
+  path: Assets/TerrainData_04f205b0-dba7-4f7b-8d1e-613508867df9.asset
+  artifactKey: Guid(124ed84cc195c4eeb8f4c0a66437f45e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_04f205b0-dba7-4f7b-8d1e-613508867df9.asset using Guid(124ed84cc195c4eeb8f4c0a66437f45e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19080629fd69d2a1a518d934630aad33') in 0.012888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.499412 seconds.
+  path: Assets/TerrainData_06da4401-d13b-4b05-87d7-aa635e962144.asset
+  artifactKey: Guid(05f886c9b81bb43b1a0f1619491589cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_06da4401-d13b-4b05-87d7-aa635e962144.asset using Guid(05f886c9b81bb43b1a0f1619491589cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '906afc8dacc42dfd501e14877d94a741') in 0.016175 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 5.915944 seconds.
+  path: Assets/TerrainData_fef6d321-c5b5-4f54-ac43-c2bf9c75f132.asset
+  artifactKey: Guid(4acedda7aad4c4ec4a846a595633264d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_fef6d321-c5b5-4f54-ac43-c2bf9c75f132.asset using Guid(4acedda7aad4c4ec4a846a595633264d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e9c75bbfa0a013997db216adad62a5e') in 0.012694 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.624488 seconds.
+  path: Assets/TerrainData_bb993753-c589-4a43-93d0-0a7f71afeb00.asset
+  artifactKey: Guid(97def391b92814a578080a855f35669d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_bb993753-c589-4a43-93d0-0a7f71afeb00.asset using Guid(97def391b92814a578080a855f35669d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf24969a5aa5716a086802ca5235c92c') in 0.022868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 20.540206 seconds.
+  path: Assets/NewBrush.brush
+  artifactKey: Guid(b6a9daf4c272e4528905913fef80b9ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewBrush.brush using Guid(b6a9daf4c272e4528905913fef80b9ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fe6b9140bcd05182814d0bb35ad9468') in 0.020649 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
