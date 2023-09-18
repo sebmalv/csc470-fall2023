@@ -19,28 +19,27 @@ public class RainCatsAndDogs : MonoBehaviour{
     void generateRain()
     {
         int number= 0;
-        while (number<=30){
-            int x= 1;
-            int y= 1;
+        while (number<=50){
+            int x= 8;
+            int y= 5;
             int z= number;
             Vector3 pos = new Vector3(x, y, z);
             GameObject adPreFabobj= Instantiate(adPreFab, pos, Quaternion.identity);
-            number+= 5;
-    }
-        number= 30;
-        if(number==30){
-                firstCircle= adPreFab;}
+            number+= 10;
+            if(number==30){
+                firstCircle= adPreFabobj;
+            }
+        }
         int numb2= 0;
-        while(numb2<=30){
+        while(numb2<=50){
             int x= 5;
-            int y= 1;
+            int y= 5;
             int z= numb2;
             Vector3 pos = new Vector3(x, y, z);
             GameObject ringTailObj= Instantiate(ringTailPreFab, pos, Quaternion.identity);
-            numb2+=5;
-
+            numb2+=10;
         }
-        }
+    }
 
          
     
@@ -49,8 +48,12 @@ public class RainCatsAndDogs : MonoBehaviour{
     void Update()
     {
         if(Input.anyKeyDown){
+        Debug.Log("Yes working");
         Rigidbody rb= firstCircle.GetComponent<Rigidbody>();
-        rb.AddForce(firstCircle.transform.forward*(100));}
+        if(rb!=null){
+            rb.AddForce(firstCircle.transform.forward*(300000));}
+
+        }
         
     }
 }

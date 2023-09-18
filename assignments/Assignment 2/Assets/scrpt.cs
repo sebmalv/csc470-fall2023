@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class scrpt : MonoBehaviour
+
 {
+    GameObject bigball;
     // Start is called before the first frame update
     void Start()
     {
