@@ -405,13 +405,7 @@
         397,
         398,
         399,
-        400,
-        401,
-        402,
-        403,
-        404,
-        405,
-        406
+        400
       ],
       "OverwriteOutputs": false,
       "DebugActionIndex": 0
@@ -18065,116 +18059,34 @@
       "DebugActionIndex": 378
     },
     {
-      "Annotation": "7z Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js.unmarked",
-      "DisplayName": "7z build.framework.js",
-      "Action": "cd \"/Users/sebmalvarenga/unity projects/csc470-fall2023/assignments/03_Emergence/Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm\" && \"/Applications/Unity/Hub/Editor/2022.3.9f1/Unity.app/Contents/Tools/7za\" a -tgzip \"/Users/sebmalvarenga/unity projects/csc470-fall2023/assignments/03_Emergence/Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js.unmarked\" \"build.framework.js\"",
+      "Annotation": "CopyFiles /Users/sebmalvarenga/unity projects/csc470-fall2023/games/03_emergence/Build/03_emergence.framework.js",
+      "DisplayName": "Copying 03_emergence.framework.js",
+      "ActionType": "CopyFiles",
       "Inputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js",
-        "/Applications/Unity/Hub/Editor/2022.3.9f1/Unity.app/Contents/Tools/7za"
+        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js"
       ],
       "Outputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js.unmarked"
+        "/Users/sebmalvarenga/unity projects/csc470-fall2023/games/03_emergence/Build/03_emergence.framework.js"
       ],
       "ToBuildDependencies": [
         378
       ],
-      "OverwriteOutputs": false,
-      "AllowUnexpectedOutput": true,
-      "Env": [],
       "DebugActionIndex": 379
     },
     {
-      "Annotation": "WriteText Library/Bee/artifacts/csharpactions/03_emergence.framework.js.gz_9218.info",
-      "DisplayName": "Writing 03_emergence.framework.js.gz_9218.info",
-      "ActionType": "WriteFile",
-      "PayloadOffset": 92126,
-      "PayloadLength": 504,
-      "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
-      "Inputs": [],
-      "Outputs": [
-        "Library/Bee/artifacts/csharpactions/03_emergence.framework.js.gz_9218.info"
-      ],
-      "DebugActionIndex": 380
-    },
-    {
-      "Annotation": "GzipMarker /Users/sebmalvarenga/unity projects/csc470-fall2023/games/03_emergence/Build/03_emergence.framework.js.gz",
-      "DisplayName": "GzipMarker 03_emergence.framework.js",
-      "Action": "\"/Applications/Unity/Hub/Editor/2022.3.9f1/Unity.app/Contents/Tools/netcorerun/netcorerun\" \"/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.exe\" \"/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WebGLSupport/Bee:/Applications/Unity/Hub/Editor/2022.3.9f1/Unity.app/Contents/Tools/BuildPipeline\" invoke_static_method \"Library/Bee/artifacts/csharpactions/03_emergence.framework.js.gz_9218.info\"",
+      "Annotation": "CopyFiles /Users/sebmalvarenga/unity projects/csc470-fall2023/games/03_emergence/Build/03_emergence.wasm",
+      "DisplayName": "Copying 03_emergence.wasm",
+      "ActionType": "CopyFiles",
       "Inputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js.unmarked",
-        "Library/Bee/artifacts/csharpactions/03_emergence.framework.js.gz_9218.info",
-        "/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WebGLSupport/modules.asset",
-        "/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll",
-        "/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.Data.dll",
-        "/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.exe"
+        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm"
       ],
       "Outputs": [
-        "/Users/sebmalvarenga/unity projects/csc470-fall2023/games/03_emergence/Build/03_emergence.framework.js.gz"
-      ],
-      "ToBuildDependencies": [
-        379,
-        380
-      ],
-      "OverwriteOutputs": false,
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 381
-    },
-    {
-      "Annotation": "7z Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm.unmarked",
-      "DisplayName": "7z build.wasm",
-      "Action": "cd \"/Users/sebmalvarenga/unity projects/csc470-fall2023/assignments/03_Emergence/Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm\" && \"/Applications/Unity/Hub/Editor/2022.3.9f1/Unity.app/Contents/Tools/7za\" a -tgzip \"/Users/sebmalvarenga/unity projects/csc470-fall2023/assignments/03_Emergence/Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm.unmarked\" \"build.wasm\"",
-      "Inputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm",
-        "/Applications/Unity/Hub/Editor/2022.3.9f1/Unity.app/Contents/Tools/7za"
-      ],
-      "Outputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm.unmarked"
+        "/Users/sebmalvarenga/unity projects/csc470-fall2023/games/03_emergence/Build/03_emergence.wasm"
       ],
       "ToBuildDependencies": [
         376
       ],
-      "OverwriteOutputs": false,
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 382
-    },
-    {
-      "Annotation": "WriteText Library/Bee/artifacts/csharpactions/03_emergence.wasm.gz_yuif.info",
-      "DisplayName": "Writing 03_emergence.wasm.gz_yuif.info",
-      "ActionType": "WriteFile",
-      "PayloadOffset": 92728,
-      "PayloadLength": 488,
-      "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
-      "Inputs": [],
-      "Outputs": [
-        "Library/Bee/artifacts/csharpactions/03_emergence.wasm.gz_yuif.info"
-      ],
-      "DebugActionIndex": 383
-    },
-    {
-      "Annotation": "GzipMarker /Users/sebmalvarenga/unity projects/csc470-fall2023/games/03_emergence/Build/03_emergence.wasm.gz",
-      "DisplayName": "GzipMarker 03_emergence.wasm",
-      "Action": "\"/Applications/Unity/Hub/Editor/2022.3.9f1/Unity.app/Contents/Tools/netcorerun/netcorerun\" \"/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.exe\" \"/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WebGLSupport/Bee:/Applications/Unity/Hub/Editor/2022.3.9f1/Unity.app/Contents/Tools/BuildPipeline\" invoke_static_method \"Library/Bee/artifacts/csharpactions/03_emergence.wasm.gz_yuif.info\"",
-      "Inputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm.unmarked",
-        "Library/Bee/artifacts/csharpactions/03_emergence.wasm.gz_yuif.info",
-        "/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WebGLSupport/modules.asset",
-        "/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll",
-        "/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.Data.dll",
-        "/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.exe"
-      ],
-      "Outputs": [
-        "/Users/sebmalvarenga/unity projects/csc470-fall2023/games/03_emergence/Build/03_emergence.wasm.gz"
-      ],
-      "ToBuildDependencies": [
-        382,
-        383
-      ],
-      "OverwriteOutputs": false,
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 384
+      "DebugActionIndex": 380
     },
     {
       "Annotation": "CopyFiles Temp/EditorBuildOutput/UnityLinkerToEditorData.json",
@@ -18189,7 +18101,7 @@
       "ToBuildDependencies": [
         3
       ],
-      "DebugActionIndex": 385
+      "DebugActionIndex": 381
     },
     {
       "Annotation": "CopyFiles Temp/EditorBuildOutput/MethodMap.tsv",
@@ -18204,20 +18116,20 @@
       "ToBuildDependencies": [
         4
       ],
-      "DebugActionIndex": 386
+      "DebugActionIndex": 382
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/webgl.data_qnm2.info",
       "DisplayName": "Writing webgl.data_qnm2.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 93304,
+      "PayloadOffset": 92108,
       "PayloadLength": 1884,
       "PayloadDebugContentSnippet": "{\"System.Collections.Generic.D",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/webgl.data_qnm2.info"
       ],
-      "DebugActionIndex": 387
+      "DebugActionIndex": 383
     },
     {
       "Annotation": "Assemble WebGL Data Library/Bee/artifacts/WebGL/webgl.data",
@@ -18243,73 +18155,32 @@
       "ToBuildDependencies": [
         2,
         4,
-        387
+        383
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 388
+      "DebugActionIndex": 384
     },
     {
-      "Annotation": "7z Library/Bee/artifacts/WebGL/webgl.data.unmarked",
-      "DisplayName": "7z webgl.data",
-      "Action": "cd \"/Users/sebmalvarenga/unity projects/csc470-fall2023/assignments/03_Emergence/Library/Bee/artifacts/WebGL\" && \"/Applications/Unity/Hub/Editor/2022.3.9f1/Unity.app/Contents/Tools/7za\" a -tgzip \"/Users/sebmalvarenga/unity projects/csc470-fall2023/assignments/03_Emergence/Library/Bee/artifacts/WebGL/webgl.data.unmarked\" \"webgl.data\"",
+      "Annotation": "CopyFiles /Users/sebmalvarenga/unity projects/csc470-fall2023/games/03_emergence/Build/03_emergence.data",
+      "DisplayName": "Copying 03_emergence.data",
+      "ActionType": "CopyFiles",
       "Inputs": [
-        "Library/Bee/artifacts/WebGL/webgl.data",
-        "/Applications/Unity/Hub/Editor/2022.3.9f1/Unity.app/Contents/Tools/7za"
+        "Library/Bee/artifacts/WebGL/webgl.data"
       ],
       "Outputs": [
-        "Library/Bee/artifacts/WebGL/webgl.data.unmarked"
+        "/Users/sebmalvarenga/unity projects/csc470-fall2023/games/03_emergence/Build/03_emergence.data"
       ],
       "ToBuildDependencies": [
-        388
+        384
       ],
-      "OverwriteOutputs": false,
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 389
-    },
-    {
-      "Annotation": "WriteText Library/Bee/artifacts/csharpactions/03_emergence.data.gz_gp4r.info",
-      "DisplayName": "Writing 03_emergence.data.gz_gp4r.info",
-      "ActionType": "WriteFile",
-      "PayloadOffset": 95286,
-      "PayloadLength": 465,
-      "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
-      "Inputs": [],
-      "Outputs": [
-        "Library/Bee/artifacts/csharpactions/03_emergence.data.gz_gp4r.info"
-      ],
-      "DebugActionIndex": 390
-    },
-    {
-      "Annotation": "GzipMarker /Users/sebmalvarenga/unity projects/csc470-fall2023/games/03_emergence/Build/03_emergence.data.gz",
-      "DisplayName": "GzipMarker 03_emergence.data",
-      "Action": "\"/Applications/Unity/Hub/Editor/2022.3.9f1/Unity.app/Contents/Tools/netcorerun/netcorerun\" \"/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.exe\" \"/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WebGLSupport/Bee:/Applications/Unity/Hub/Editor/2022.3.9f1/Unity.app/Contents/Tools/BuildPipeline\" invoke_static_method \"Library/Bee/artifacts/csharpactions/03_emergence.data.gz_gp4r.info\"",
-      "Inputs": [
-        "Library/Bee/artifacts/WebGL/webgl.data.unmarked",
-        "Library/Bee/artifacts/csharpactions/03_emergence.data.gz_gp4r.info",
-        "/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WebGLSupport/modules.asset",
-        "/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll",
-        "/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.Data.dll",
-        "/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.exe"
-      ],
-      "Outputs": [
-        "/Users/sebmalvarenga/unity projects/csc470-fall2023/games/03_emergence/Build/03_emergence.data.gz"
-      ],
-      "ToBuildDependencies": [
-        389,
-        390
-      ],
-      "OverwriteOutputs": false,
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 391
+      "DebugActionIndex": 385
     },
     {
       "Annotation": "PreprocessJS /Users/sebmalvarenga/unity projects/csc470-fall2023/games/03_emergence/Build/03_emergence.loader.js",
       "DisplayName": "PreprocessJS 03_emergence.loader",
-      "Action": "cd \"/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WebGLSupport/BuildTools\" && \"/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node\" \"/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='UnityLoader/UnityLoader.js'\"  \"locals.outputPath='/Users/sebmalvarenga/unity projects/csc470\\x2dfall2023/games/03\\x5femergence/Build/03\\x5femergence.loader.js'\"  \"locals.webglIncludes='/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=true\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='03\\x5fEmergence'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='03\\x5femergence.data.gz'\" \"FRAMEWORK_FILENAME='03\\x5femergence.framework.js.gz'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='03\\x5femergence.wasm.gz'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2022.3.9f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"LOADER_FILENAME='03\\x5femergence.loader.js'\"",
+      "Action": "cd \"/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WebGLSupport/BuildTools\" && \"/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node\" \"/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='UnityLoader/UnityLoader.js'\"  \"locals.outputPath='/Users/sebmalvarenga/unity projects/csc470\\x2dfall2023/games/03\\x5femergence/Build/03\\x5femergence.loader.js'\"  \"locals.webglIncludes='/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=true\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='03\\x5fEmergence'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='03\\x5femergence.data'\" \"FRAMEWORK_FILENAME='03\\x5femergence.framework.js'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='03\\x5femergence.wasm'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2022.3.9f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"LOADER_FILENAME='03\\x5femergence.loader.js'\"",
       "Inputs": [
         "UnityLoader/UnityLoader.js"
       ],
@@ -18318,12 +18189,12 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 392
+      "DebugActionIndex": 386
     },
     {
       "Annotation": "PreprocessJS /Users/sebmalvarenga/unity projects/csc470-fall2023/games/03_emergence/index.html",
       "DisplayName": "PreprocessJS index",
-      "Action": "cd \"/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WebGLSupport/BuildTools\" && \"/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node\" \"/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/index.html'\"  \"locals.outputPath='/Users/sebmalvarenga/unity projects/csc470\\x2dfall2023/games/03\\x5femergence/index.html'\"  \"locals.webglIncludes='/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='03\\x5fEmergence'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='03\\x5femergence.data.gz'\" \"FRAMEWORK_FILENAME='03\\x5femergence.framework.js.gz'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='03\\x5femergence.wasm.gz'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2022.3.9f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"LOADER_FILENAME='03\\x5femergence.loader.js'\"",
+      "Action": "cd \"/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WebGLSupport/BuildTools\" && \"/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node\" \"/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/index.html'\"  \"locals.outputPath='/Users/sebmalvarenga/unity projects/csc470\\x2dfall2023/games/03\\x5femergence/index.html'\"  \"locals.webglIncludes='/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='03\\x5fEmergence'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='03\\x5femergence.data'\" \"FRAMEWORK_FILENAME='03\\x5femergence.framework.js'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='03\\x5femergence.wasm'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2022.3.9f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"LOADER_FILENAME='03\\x5femergence.loader.js'\"",
       "Inputs": [
         "/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/index.html"
       ],
@@ -18332,7 +18203,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 393
+      "DebugActionIndex": 387
     },
     {
       "Annotation": "CopyFiles /Users/sebmalvarenga/unity projects/csc470-fall2023/games/03_emergence/TemplateData/favicon.ico",
@@ -18344,7 +18215,7 @@
       "Outputs": [
         "/Users/sebmalvarenga/unity projects/csc470-fall2023/games/03_emergence/TemplateData/favicon.ico"
       ],
-      "DebugActionIndex": 394
+      "DebugActionIndex": 388
     },
     {
       "Annotation": "CopyFiles /Users/sebmalvarenga/unity projects/csc470-fall2023/games/03_emergence/TemplateData/fullscreen-button.png",
@@ -18356,7 +18227,7 @@
       "Outputs": [
         "/Users/sebmalvarenga/unity projects/csc470-fall2023/games/03_emergence/TemplateData/fullscreen-button.png"
       ],
-      "DebugActionIndex": 395
+      "DebugActionIndex": 389
     },
     {
       "Annotation": "CopyFiles /Users/sebmalvarenga/unity projects/csc470-fall2023/games/03_emergence/TemplateData/MemoryProfiler.png",
@@ -18368,7 +18239,7 @@
       "Outputs": [
         "/Users/sebmalvarenga/unity projects/csc470-fall2023/games/03_emergence/TemplateData/MemoryProfiler.png"
       ],
-      "DebugActionIndex": 396
+      "DebugActionIndex": 390
     },
     {
       "Annotation": "CopyFiles /Users/sebmalvarenga/unity projects/csc470-fall2023/games/03_emergence/TemplateData/progress-bar-empty-dark.png",
@@ -18380,7 +18251,7 @@
       "Outputs": [
         "/Users/sebmalvarenga/unity projects/csc470-fall2023/games/03_emergence/TemplateData/progress-bar-empty-dark.png"
       ],
-      "DebugActionIndex": 397
+      "DebugActionIndex": 391
     },
     {
       "Annotation": "CopyFiles /Users/sebmalvarenga/unity projects/csc470-fall2023/games/03_emergence/TemplateData/progress-bar-empty-light.png",
@@ -18392,7 +18263,7 @@
       "Outputs": [
         "/Users/sebmalvarenga/unity projects/csc470-fall2023/games/03_emergence/TemplateData/progress-bar-empty-light.png"
       ],
-      "DebugActionIndex": 398
+      "DebugActionIndex": 392
     },
     {
       "Annotation": "CopyFiles /Users/sebmalvarenga/unity projects/csc470-fall2023/games/03_emergence/TemplateData/progress-bar-full-dark.png",
@@ -18404,7 +18275,7 @@
       "Outputs": [
         "/Users/sebmalvarenga/unity projects/csc470-fall2023/games/03_emergence/TemplateData/progress-bar-full-dark.png"
       ],
-      "DebugActionIndex": 399
+      "DebugActionIndex": 393
     },
     {
       "Annotation": "CopyFiles /Users/sebmalvarenga/unity projects/csc470-fall2023/games/03_emergence/TemplateData/progress-bar-full-light.png",
@@ -18416,12 +18287,12 @@
       "Outputs": [
         "/Users/sebmalvarenga/unity projects/csc470-fall2023/games/03_emergence/TemplateData/progress-bar-full-light.png"
       ],
-      "DebugActionIndex": 400
+      "DebugActionIndex": 394
     },
     {
       "Annotation": "PreprocessJS /Users/sebmalvarenga/unity projects/csc470-fall2023/games/03_emergence/TemplateData/style.css",
       "DisplayName": "PreprocessJS style",
-      "Action": "cd \"/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WebGLSupport/BuildTools\" && \"/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node\" \"/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/style.css'\"  \"locals.outputPath='/Users/sebmalvarenga/unity projects/csc470\\x2dfall2023/games/03\\x5femergence/TemplateData/style.css'\"  \"locals.webglIncludes='/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='03\\x5fEmergence'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='03\\x5femergence.data.gz'\" \"FRAMEWORK_FILENAME='03\\x5femergence.framework.js.gz'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='03\\x5femergence.wasm.gz'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2022.3.9f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"LOADER_FILENAME='03\\x5femergence.loader.js'\"",
+      "Action": "cd \"/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WebGLSupport/BuildTools\" && \"/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node\" \"/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/style.css'\"  \"locals.outputPath='/Users/sebmalvarenga/unity projects/csc470\\x2dfall2023/games/03\\x5femergence/TemplateData/style.css'\"  \"locals.webglIncludes='/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='03\\x5fEmergence'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='03\\x5femergence.data'\" \"FRAMEWORK_FILENAME='03\\x5femergence.framework.js'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='03\\x5femergence.wasm'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2022.3.9f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"LOADER_FILENAME='03\\x5femergence.loader.js'\"",
       "Inputs": [
         "/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/style.css"
       ],
@@ -18430,7 +18301,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 401
+      "DebugActionIndex": 395
     },
     {
       "Annotation": "CopyFiles /Users/sebmalvarenga/unity projects/csc470-fall2023/games/03_emergence/TemplateData/unity-logo-dark.png",
@@ -18442,7 +18313,7 @@
       "Outputs": [
         "/Users/sebmalvarenga/unity projects/csc470-fall2023/games/03_emergence/TemplateData/unity-logo-dark.png"
       ],
-      "DebugActionIndex": 402
+      "DebugActionIndex": 396
     },
     {
       "Annotation": "CopyFiles /Users/sebmalvarenga/unity projects/csc470-fall2023/games/03_emergence/TemplateData/unity-logo-light.png",
@@ -18454,7 +18325,7 @@
       "Outputs": [
         "/Users/sebmalvarenga/unity projects/csc470-fall2023/games/03_emergence/TemplateData/unity-logo-light.png"
       ],
-      "DebugActionIndex": 403
+      "DebugActionIndex": 397
     },
     {
       "Annotation": "CopyFiles /Users/sebmalvarenga/unity projects/csc470-fall2023/games/03_emergence/TemplateData/webgl-logo.png",
@@ -18466,7 +18337,7 @@
       "Outputs": [
         "/Users/sebmalvarenga/unity projects/csc470-fall2023/games/03_emergence/TemplateData/webgl-logo.png"
       ],
-      "DebugActionIndex": 404
+      "DebugActionIndex": 398
     },
     {
       "Annotation": "CopyFiles /Users/sebmalvarenga/unity projects/csc470-fall2023/games/03_emergence/TemplateData/webmemd-icon.png",
@@ -18478,7 +18349,7 @@
       "Outputs": [
         "/Users/sebmalvarenga/unity projects/csc470-fall2023/games/03_emergence/TemplateData/webmemd-icon.png"
       ],
-      "DebugActionIndex": 405
+      "DebugActionIndex": 399
     },
     {
       "Annotation": "Player",
@@ -18488,10 +18359,16 @@
       "ToBuildDependencies": [
         3,
         373,
+        379,
+        380,
         381,
-        384,
+        382,
         385,
         386,
+        387,
+        388,
+        389,
+        390,
         391,
         392,
         393,
@@ -18500,16 +18377,10 @@
         396,
         397,
         398,
-        399,
-        400,
-        401,
-        402,
-        403,
-        404,
-        405
+        399
       ],
       "OverwriteOutputs": false,
-      "DebugActionIndex": 406
+      "DebugActionIndex": 400
     }
   ],
   "FileSignatures": [
@@ -18877,7 +18748,7 @@
   ],
         "NamedNodes": {
           "all_tundra_nodes": 0,
-          "Player": 406
+          "Player": 400
         }
 ,  "DefaultNodes": [
     0
