@@ -11,12 +11,6 @@ ScriptsOnlyBuild:
     - LittleGuyMovement
     - PlatformS
     - QuetzalController
-    Unity.ProBuilder.Editor.dll:
-    - UnityEditor.ProBuilder.PolyShapeTool
-    - UnityEditor.ProBuilder.PositionToolContext
-    - UnityEditor.ProBuilder.ProbuilderMoveTool
-    - UnityEditor.ProBuilder.ProbuilderRotateTool
-    - UnityEditor.ProBuilder.ProbuilderScaleTool
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro:
@@ -108,49 +102,49 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1590}
+      Script: {instanceID: 1636}
     - Class: 114
-      Script: {instanceID: 1776}
+      Script: {instanceID: 1644}
     - Class: 114
-      Script: {instanceID: 2172}
+      Script: {instanceID: 1836}
     - Class: 114
-      Script: {instanceID: 2586}
+      Script: {instanceID: 2272}
     - Class: 114
-      Script: {instanceID: 2786}
+      Script: {instanceID: 2714}
     - Class: 114
-      Script: {instanceID: 3594}
+      Script: {instanceID: 2932}
     - Class: 114
-      Script: {instanceID: 3944}
+      Script: {instanceID: 3558}
     - Class: 114
-      Script: {instanceID: 4052}
+      Script: {instanceID: 3824}
     - Class: 114
-      Script: {instanceID: 4300}
+      Script: {instanceID: 4210}
     - Class: 114
-      Script: {instanceID: 4302}
+      Script: {instanceID: 4326}
     - Class: 114
-      Script: {instanceID: 4932}
+      Script: {instanceID: 4600}
     - Class: 114
-      Script: {instanceID: 5004}
+      Script: {instanceID: 4604}
     - Class: 114
-      Script: {instanceID: 5068}
+      Script: {instanceID: 5320}
     - Class: 114
-      Script: {instanceID: 5550}
+      Script: {instanceID: 5392}
     - Class: 114
-      Script: {instanceID: 5698}
+      Script: {instanceID: 5466}
     - Class: 114
-      Script: {instanceID: 6010}
+      Script: {instanceID: 6000}
     - Class: 114
-      Script: {instanceID: 6996}
+      Script: {instanceID: 6162}
     - Class: 114
-      Script: {instanceID: 211954}
+      Script: {instanceID: 6212}
     - Class: 114
-      Script: {instanceID: 639374}
+      Script: {instanceID: 6522}
     - Class: 114
-      Script: {instanceID: 772734}
+      Script: {instanceID: 7420}
     - Class: 114
-      Script: {instanceID: 772758}
+      Script: {instanceID: 7680}
     - Class: 114
-      Script: {instanceID: 1090730}
+      Script: {instanceID: 7896}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -194,6 +188,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: 494df8b2a668e393cf7f040e5af0c9ba
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: FerretMove
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -310,6 +310,12 @@ ScriptsOnlyBuild:
     className: Benchmark01_UGUI
   - hash:
       serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GameManager
+  - hash:
+      serializedVersion: 2
       Hash: bcdedb1b3a567eb05111be4716618ce1
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.EventSystems
@@ -346,6 +352,12 @@ ScriptsOnlyBuild:
     className: UnityMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 9ef1bf2a5a8c63d2f9b58befcb2c2480
+    assemblyName: Unity.ProBuilder
+    namespaceName: UnityEngine.ProBuilder.Shapes
+    className: ProBuilderShape
+  - hash:
+      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Assembly-CSharp
     namespaceName: TMPro.Examples
@@ -356,6 +368,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: CoroutineRunner
+  - hash:
+      serializedVersion: 2
+      Hash: 433541aaaa984fd6409b04a02a661444
+    assemblyName: Unity.ProBuilder
+    namespaceName: UnityEngine.ProBuilder
+    className: ColorPalette
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -410,6 +428,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnDropdownValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 0c34dad2e0e0ef354f592e1a5edf30ff
+    assemblyName: Unity.ProBuilder
+    namespaceName: UnityEngine.ProBuilder
+    className: BezierShape
   - hash:
       serializedVersion: 2
       Hash: 9f5cca8c22d9a2d2a819c5ba5c0675a8
@@ -485,6 +509,12 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CollectableScr
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: UnityEngine.TestRunner
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: PlayerQuitHandler
@@ -554,6 +584,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
     className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: b8ff5f5d94455deb9dce0f32a8a2ef48
+    assemblyName: Unity.ProBuilder
+    namespaceName: UnityEngine.ProBuilder
+    className: PolyShape
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -718,6 +754,12 @@ ScriptsOnlyBuild:
     className: SceneVariables
   - hash:
       serializedVersion: 2
+      Hash: 283263892333d82961e47691571eaa1a
+    assemblyName: Unity.ProBuilder
+    namespaceName: UnityEngine.ProBuilder
+    className: ProBuilderMesh
+  - hash:
+      serializedVersion: 2
       Hash: f6831ac80ec81c5d5b370c0ed0fee997
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -760,6 +802,12 @@ ScriptsOnlyBuild:
     className: AnimationPlayableAsset
   - hash:
       serializedVersion: 2
+      Hash: c7255454f69b7cfe8a3a07bcab4b65a4
+    assemblyName: Unity.ProBuilder
+    namespaceName: UnityEngine.ProBuilder
+    className: ColliderBehaviour
+  - hash:
+      serializedVersion: 2
       Hash: 6237f92becd6162fa105361ab9ce2a00
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
@@ -770,6 +818,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnTriggerStayMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 03e171369c8613a43b4c56d0c8481fe8
+    assemblyName: Unity.ProBuilder
+    namespaceName: UnityEngine.ProBuilder
+    className: PreferenceDictionary
   - hash:
       serializedVersion: 2
       Hash: 32dfe76194c51f0d62549c972eb43775
@@ -911,9 +965,21 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: KeyMoving
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnMouseUpAsButtonMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: f775775d34f947c68397da7bf91c15ee
+    assemblyName: Unity.ProBuilder
+    namespaceName: UnityEngine.ProBuilder
+    className: Entity
   - hash:
       serializedVersion: 2
       Hash: af33740fd008fddf067c2bd4ecacf9c0
@@ -962,6 +1028,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
     className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: c7255454f69b7cfe8a3a07bcab4b65a4
+    assemblyName: Unity.ProBuilder
+    namespaceName: UnityEngine.ProBuilder
+    className: TriggerBehaviour
   - hash:
       serializedVersion: 2
       Hash: 098f025716fad3521c89a222b6058556
@@ -1090,6 +1162,12 @@ ScriptsOnlyBuild:
     className: Dropdown
   - hash:
       serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GameManaging
+  - hash:
+      serializedVersion: 2
       Hash: a31fd79490479c7454bc49ff7ef65bbf
     assemblyName: Assembly-CSharp
     namespaceName: TMPro.Examples
@@ -1124,6 +1202,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: 1d94e397f21e5d23d9b1835c567834f1
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: DoorMove
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -1232,96 +1316,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 03e171369c8613a43b4c56d0c8481fe8
-    assemblyName: Unity.ProBuilder
-    namespaceName: UnityEngine.ProBuilder
-    className: PreferenceDictionary
-  - hash:
-      serializedVersion: 2
-      Hash: 283263892333d82961e47691571eaa1a
-    assemblyName: Unity.ProBuilder
-    namespaceName: UnityEngine.ProBuilder
-    className: ProBuilderMesh
-  - hash:
-      serializedVersion: 2
-      Hash: c7255454f69b7cfe8a3a07bcab4b65a4
-    assemblyName: Unity.ProBuilder
-    namespaceName: UnityEngine.ProBuilder
-    className: ColliderBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: f775775d34f947c68397da7bf91c15ee
-    assemblyName: Unity.ProBuilder
-    namespaceName: UnityEngine.ProBuilder
-    className: Entity
-  - hash:
-      serializedVersion: 2
-      Hash: 0c34dad2e0e0ef354f592e1a5edf30ff
-    assemblyName: Unity.ProBuilder
-    namespaceName: UnityEngine.ProBuilder
-    className: BezierShape
-  - hash:
-      serializedVersion: 2
-      Hash: b8ff5f5d94455deb9dce0f32a8a2ef48
-    assemblyName: Unity.ProBuilder
-    namespaceName: UnityEngine.ProBuilder
-    className: PolyShape
-  - hash:
-      serializedVersion: 2
-      Hash: 9ef1bf2a5a8c63d2f9b58befcb2c2480
-    assemblyName: Unity.ProBuilder
-    namespaceName: UnityEngine.ProBuilder.Shapes
-    className: ProBuilderShape
-  - hash:
-      serializedVersion: 2
-      Hash: 433541aaaa984fd6409b04a02a661444
-    assemblyName: Unity.ProBuilder
-    namespaceName: UnityEngine.ProBuilder
-    className: ColorPalette
-  - hash:
-      serializedVersion: 2
-      Hash: c7255454f69b7cfe8a3a07bcab4b65a4
-    assemblyName: Unity.ProBuilder
-    namespaceName: UnityEngine.ProBuilder
-    className: TriggerBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 494df8b2a668e393cf7f040e5af0c9ba
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: FerretMove
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: GameManager
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: GameManaging
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: KeyMoving
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: CollectableScr
-  - hash:
-      serializedVersion: 2
-      Hash: 1d94e397f21e5d23d9b1835c567834f1
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: DoorMove
   platform: 20
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
