@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{FC7FB573-6098-5B43-2578-AFC28A10CFBF}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/SeedPlanterScript.cs">
+    <Files>
+      <File FileName="Assets/PlayerScript.cs" Line="52" Column="24" />
+      <File FileName="Assets/DeerEnemyScript.cs" />
+      <File FileName="Assets/GameManagerScr.cs" Line="42" Column="1" />
+      <File FileName="Assets/SeedCollectorScript.cs" Line="14" Column="1" />
+      <File FileName="Assets/SeedPlanterScript.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="FifthHomework" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="SeedPlanterScript.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="30af01dc-e7a9-450a-a632-66e50eb007de" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
