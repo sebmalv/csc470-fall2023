@@ -54,6 +54,7 @@ public class SeedPlanterScript : MonoBehaviour
     void clickedButton()
     {
         cornGrowthMeter.gameObject.SetActive(false);
+        cornGrowthMeter.value = 0;
         cornGrowthText.gameObject.SetActive(false);
         for (int i = 0; i < 5; i++)
         {

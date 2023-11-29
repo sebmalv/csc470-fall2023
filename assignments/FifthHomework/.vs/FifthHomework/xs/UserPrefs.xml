@@ -1,18 +1,18 @@
 ﻿<Properties StartupConfiguration="{FC7FB573-6098-5B43-2578-AFC28A10CFBF}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/SeedPlanterScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/SeedCollectorScript.cs">
     <Files>
-      <File FileName="Assets/PlayerScript.cs" Line="52" Column="24" />
+      <File FileName="Assets/PlayerScript.cs" Line="66" Column="6" />
       <File FileName="Assets/DeerEnemyScript.cs" />
-      <File FileName="Assets/GameManagerScr.cs" Line="42" Column="1" />
-      <File FileName="Assets/SeedCollectorScript.cs" Line="14" Column="1" />
-      <File FileName="Assets/SeedPlanterScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/GameManagerScr.cs" />
+      <File FileName="Assets/SeedCollectorScript.cs" Line="50" Column="26" />
+      <File FileName="Assets/SeedPlanterScript.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="FifthHomework" expanded="True">
             <Node name="Assets" expanded="True">
-              <Node name="SeedPlanterScript.cs" selected="True" />
+              <Node name="PlayerScript.cs" selected="True" />
             </Node>
           </Node>
         </State>

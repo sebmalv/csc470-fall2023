@@ -32,6 +32,7 @@ public class SeedCollectorScript : MonoBehaviour
     {
         SeedCollectorMeter.gameObject.SetActive(false);
         SeedCollectorText.gameObject.SetActive(false);
+        SeedCollectorMeter.value = 0;
         seedsRemoved();
 
     }
