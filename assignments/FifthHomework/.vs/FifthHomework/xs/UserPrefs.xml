@@ -4,15 +4,15 @@
       <File FileName="Assets/PlayerScript.cs" Line="66" Column="6" />
       <File FileName="Assets/DeerEnemyScript.cs" />
       <File FileName="Assets/GameManagerScr.cs" />
-      <File FileName="Assets/SeedCollectorScript.cs" Line="50" Column="26" />
-      <File FileName="Assets/SeedPlanterScript.cs" />
+      <File FileName="Assets/SeedCollectorScript.cs" Line="35" Column="38" />
+      <File FileName="Assets/SeedPlanterScript.cs" Line="57" Column="35" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="FifthHomework" expanded="True">
             <Node name="Assets" expanded="True">
-              <Node name="PlayerScript.cs" selected="True" />
+              <Node name="SeedCollectorScript.cs" selected="True" />
             </Node>
           </Node>
         </State>
