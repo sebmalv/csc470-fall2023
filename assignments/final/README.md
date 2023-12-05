@@ -18,11 +18,6 @@ Space bar to jump
 Clicking certain characters/areas
 Visual Style:
     I am hoping to create a game that is very upbeat in appearance. The color/style will follow something similar to that of Pokemon games [Example 1]. However, I will attempt to incorporate art that appears as our traditional art does [Example 2].
-    Example 1:
-​​
-
-
-    Example 2:
 
 
 
@@ -50,10 +45,15 @@ TimeLine:
 
 12/13-12/15: Edit bugs, fix any issues, try to hit the above and beyond where possible
 
+EXAMPLE: 
+Example 2:
+![mayan-gods](https://github.com/sebmalv/csc470-fall2023/assets/143835182/98bdbb0d-31d1-4a87-a1df-bd7ee1a4005b)
 
-Sketches:
+example 1:
 
+![pokemon-ultra-sun-shacknews-review-slim_1200x500](https://github.com/sebmalv/csc470-fall2023/assets/143835182/d5c2bc4d-969e-46a8-ad3b-c91250051981)
 
-
-
-
+SKETCHES: 
+![IMG_9141](https://github.com/sebmalv/csc470-fall2023/assets/143835182/e03b3479-14dc-46ed-8cc6-eeae50eb69fc)
+![IMG_9142](https://github.com/sebmalv/csc470-fall2023/assets/143835182/bcfd7950-0de8-4503-9987-d084a37f5095)
+![IMG_9143](https://github.com/sebmalv/csc470-fall2023/assets/143835182/8b65f0b0-e3a1-472a-8599-2fcdbb9301f3)
