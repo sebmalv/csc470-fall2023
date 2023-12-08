@@ -2,20 +2,23 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/GameManagerScript.cs">
     <Files>
       <File FileName="Assets/MainPlayerScript.cs" Line="32" Column="10" />
-      <File FileName="Assets/GameManagerScript.cs" Line="67" Column="1" />
-      <File FileName="Assets/FollowPlayerScript.cs" Line="23" Column="12" />
+      <File FileName="Assets/GameManagerScript.cs" Line="52" Column="1" />
+      <File FileName="Assets/FollowPlayerScript.cs" />
+      <File FileName="Assets/ButtonsPressed.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="FinalProject" expanded="True" selected="True" />
+          <Node name="FinalProject" expanded="True">
+            <Node name="Assets" expanded="True" selected="True" />
+          </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="33b380eb-4179-4b49-9f18-9abc6069b6e9" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="76558bd3-5691-484a-a000-c9a32040f6a3" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
