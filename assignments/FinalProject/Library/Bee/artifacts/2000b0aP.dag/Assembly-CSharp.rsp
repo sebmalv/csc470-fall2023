@@ -287,9 +287,13 @@
 -r:"Library/Bee/artifacts/2000b0aP.dag/UnityEngine.UI.ref.dll"
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.9f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.9f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
+"Assets/animalBattleScript.cs"
+"Assets/arrowScript.cs"
+"Assets/BossBattleManangerscript.cs"
 "Assets/ButtonsPressed.cs"
 "Assets/FollowPlayerScript.cs"
 "Assets/GameManagerScript.cs"
+"Assets/goNext.cs"
 "Assets/MainPlayerScript.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
@@ -325,7 +329,9 @@
 "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs"
+"Assets/VillageManager.cs"
 "Assets/VoxelAnimals/Assets/Scripts/PlayerController.cs"
+"Assets/wonScript.cs"
 -langversion:9.0
 
 /deterministic

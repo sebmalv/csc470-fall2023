@@ -5,26 +5,14 @@
         "name": "Animation",
         "dependencies": [
           {
-            "name": "AnimationClip",
-            "scenes": [
-              "Assets/Scenes/BeginningScene.unity"
-            ],
-            "dependencyType": 0,
-            "icon": null
-          },
-          {
             "name": "Animator",
-            "scenes": [
-              "Assets/Scenes/BeginningScene.unity"
-            ],
+            "scenes": [],
             "dependencyType": 0,
             "icon": null
           },
           {
             "name": "AnimatorController",
-            "scenes": [
-              "Assets/Scenes/BeginningScene.unity"
-            ],
+            "scenes": [],
             "dependencyType": 1,
             "icon": null
           },
@@ -32,12 +20,6 @@
             "name": "AnimatorOverrideController",
             "scenes": [],
             "dependencyType": 0,
-            "icon": null
-          },
-          {
-            "name": "Motion",
-            "scenes": [],
-            "dependencyType": 1,
             "icon": null
           },
           {
@@ -56,7 +38,11 @@
             "scenes": [
               "Assets/Scenes/AnimalBattleScene.unity",
               "Assets/Scenes/BeginningScene.unity",
-              "Assets/Scenes/MenuScene.unity"
+              "Assets/Scenes/BossBattleScene.unity",
+              "Assets/Scenes/IntroScene.unity",
+              "Assets/Scenes/MenuScene.unity",
+              "Assets/Scenes/VillageScene.unity",
+              "Assets/Scenes/WinningScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -72,7 +58,11 @@
             "scenes": [
               "Assets/Scenes/AnimalBattleScene.unity",
               "Assets/Scenes/BeginningScene.unity",
-              "Assets/Scenes/MenuScene.unity"
+              "Assets/Scenes/BossBattleScene.unity",
+              "Assets/Scenes/IntroScene.unity",
+              "Assets/Scenes/MenuScene.unity",
+              "Assets/Scenes/VillageScene.unity",
+              "Assets/Scenes/WinningScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -111,7 +101,11 @@
             "scenes": [
               "Assets/Scenes/AnimalBattleScene.unity",
               "Assets/Scenes/BeginningScene.unity",
-              "Assets/Scenes/MenuScene.unity"
+              "Assets/Scenes/BossBattleScene.unity",
+              "Assets/Scenes/IntroScene.unity",
+              "Assets/Scenes/MenuScene.unity",
+              "Assets/Scenes/VillageScene.unity",
+              "Assets/Scenes/WinningScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -133,7 +127,11 @@
             "scenes": [
               "Assets/Scenes/AnimalBattleScene.unity",
               "Assets/Scenes/BeginningScene.unity",
-              "Assets/Scenes/MenuScene.unity"
+              "Assets/Scenes/BossBattleScene.unity",
+              "Assets/Scenes/IntroScene.unity",
+              "Assets/Scenes/MenuScene.unity",
+              "Assets/Scenes/VillageScene.unity",
+              "Assets/Scenes/WinningScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -155,7 +153,11 @@
             "scenes": [
               "Assets/Scenes/AnimalBattleScene.unity",
               "Assets/Scenes/BeginningScene.unity",
-              "Assets/Scenes/MenuScene.unity"
+              "Assets/Scenes/BossBattleScene.unity",
+              "Assets/Scenes/IntroScene.unity",
+              "Assets/Scenes/MenuScene.unity",
+              "Assets/Scenes/VillageScene.unity",
+              "Assets/Scenes/WinningScene.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -171,7 +173,11 @@
             "scenes": [
               "Assets/Scenes/AnimalBattleScene.unity",
               "Assets/Scenes/BeginningScene.unity",
-              "Assets/Scenes/MenuScene.unity"
+              "Assets/Scenes/BossBattleScene.unity",
+              "Assets/Scenes/IntroScene.unity",
+              "Assets/Scenes/MenuScene.unity",
+              "Assets/Scenes/VillageScene.unity",
+              "Assets/Scenes/WinningScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -199,7 +205,11 @@
             "scenes": [
               "Assets/Scenes/AnimalBattleScene.unity",
               "Assets/Scenes/BeginningScene.unity",
-              "Assets/Scenes/MenuScene.unity"
+              "Assets/Scenes/BossBattleScene.unity",
+              "Assets/Scenes/IntroScene.unity",
+              "Assets/Scenes/MenuScene.unity",
+              "Assets/Scenes/VillageScene.unity",
+              "Assets/Scenes/WinningScene.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -209,7 +219,11 @@
             "scenes": [
               "Assets/Scenes/AnimalBattleScene.unity",
               "Assets/Scenes/BeginningScene.unity",
-              "Assets/Scenes/MenuScene.unity"
+              "Assets/Scenes/BossBattleScene.unity",
+              "Assets/Scenes/IntroScene.unity",
+              "Assets/Scenes/MenuScene.unity",
+              "Assets/Scenes/VillageScene.unity",
+              "Assets/Scenes/WinningScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -231,7 +245,11 @@
             "scenes": [
               "Assets/Scenes/AnimalBattleScene.unity",
               "Assets/Scenes/BeginningScene.unity",
-              "Assets/Scenes/MenuScene.unity"
+              "Assets/Scenes/BossBattleScene.unity",
+              "Assets/Scenes/IntroScene.unity",
+              "Assets/Scenes/MenuScene.unity",
+              "Assets/Scenes/VillageScene.unity",
+              "Assets/Scenes/WinningScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -247,7 +265,11 @@
             "scenes": [
               "Assets/Scenes/AnimalBattleScene.unity",
               "Assets/Scenes/BeginningScene.unity",
-              "Assets/Scenes/MenuScene.unity"
+              "Assets/Scenes/BossBattleScene.unity",
+              "Assets/Scenes/IntroScene.unity",
+              "Assets/Scenes/MenuScene.unity",
+              "Assets/Scenes/VillageScene.unity",
+              "Assets/Scenes/WinningScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -257,7 +279,11 @@
             "scenes": [
               "Assets/Scenes/AnimalBattleScene.unity",
               "Assets/Scenes/BeginningScene.unity",
-              "Assets/Scenes/MenuScene.unity"
+              "Assets/Scenes/BossBattleScene.unity",
+              "Assets/Scenes/IntroScene.unity",
+              "Assets/Scenes/MenuScene.unity",
+              "Assets/Scenes/VillageScene.unity",
+              "Assets/Scenes/WinningScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -267,7 +293,11 @@
             "scenes": [
               "Assets/Scenes/AnimalBattleScene.unity",
               "Assets/Scenes/BeginningScene.unity",
-              "Assets/Scenes/MenuScene.unity"
+              "Assets/Scenes/BossBattleScene.unity",
+              "Assets/Scenes/IntroScene.unity",
+              "Assets/Scenes/MenuScene.unity",
+              "Assets/Scenes/VillageScene.unity",
+              "Assets/Scenes/WinningScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -277,7 +307,11 @@
             "scenes": [
               "Assets/Scenes/AnimalBattleScene.unity",
               "Assets/Scenes/BeginningScene.unity",
-              "Assets/Scenes/MenuScene.unity"
+              "Assets/Scenes/BossBattleScene.unity",
+              "Assets/Scenes/IntroScene.unity",
+              "Assets/Scenes/MenuScene.unity",
+              "Assets/Scenes/VillageScene.unity",
+              "Assets/Scenes/WinningScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -285,8 +319,13 @@
           {
             "name": "MonoBehaviour",
             "scenes": [
+              "Assets/Scenes/AnimalBattleScene.unity",
               "Assets/Scenes/BeginningScene.unity",
-              "Assets/Scenes/MenuScene.unity"
+              "Assets/Scenes/BossBattleScene.unity",
+              "Assets/Scenes/IntroScene.unity",
+              "Assets/Scenes/MenuScene.unity",
+              "Assets/Scenes/VillageScene.unity",
+              "Assets/Scenes/WinningScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -300,8 +339,13 @@
           {
             "name": "MonoScript",
             "scenes": [
+              "Assets/Scenes/AnimalBattleScene.unity",
               "Assets/Scenes/BeginningScene.unity",
-              "Assets/Scenes/MenuScene.unity"
+              "Assets/Scenes/BossBattleScene.unity",
+              "Assets/Scenes/IntroScene.unity",
+              "Assets/Scenes/MenuScene.unity",
+              "Assets/Scenes/VillageScene.unity",
+              "Assets/Scenes/WinningScene.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -311,7 +355,11 @@
             "scenes": [
               "Assets/Scenes/AnimalBattleScene.unity",
               "Assets/Scenes/BeginningScene.unity",
-              "Assets/Scenes/MenuScene.unity"
+              "Assets/Scenes/BossBattleScene.unity",
+              "Assets/Scenes/IntroScene.unity",
+              "Assets/Scenes/MenuScene.unity",
+              "Assets/Scenes/VillageScene.unity",
+              "Assets/Scenes/WinningScene.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -343,7 +391,13 @@
           {
             "name": "RectTransform",
             "scenes": [
-              "Assets/Scenes/MenuScene.unity"
+              "Assets/Scenes/AnimalBattleScene.unity",
+              "Assets/Scenes/BeginningScene.unity",
+              "Assets/Scenes/BossBattleScene.unity",
+              "Assets/Scenes/IntroScene.unity",
+              "Assets/Scenes/MenuScene.unity",
+              "Assets/Scenes/VillageScene.unity",
+              "Assets/Scenes/WinningScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -359,7 +413,11 @@
             "scenes": [
               "Assets/Scenes/AnimalBattleScene.unity",
               "Assets/Scenes/BeginningScene.unity",
-              "Assets/Scenes/MenuScene.unity"
+              "Assets/Scenes/BossBattleScene.unity",
+              "Assets/Scenes/IntroScene.unity",
+              "Assets/Scenes/MenuScene.unity",
+              "Assets/Scenes/VillageScene.unity",
+              "Assets/Scenes/WinningScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -393,7 +451,11 @@
             "scenes": [
               "Assets/Scenes/AnimalBattleScene.unity",
               "Assets/Scenes/BeginningScene.unity",
-              "Assets/Scenes/MenuScene.unity"
+              "Assets/Scenes/BossBattleScene.unity",
+              "Assets/Scenes/IntroScene.unity",
+              "Assets/Scenes/MenuScene.unity",
+              "Assets/Scenes/VillageScene.unity",
+              "Assets/Scenes/WinningScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -413,7 +475,11 @@
           {
             "name": "Sprite",
             "scenes": [
-              "Assets/Scenes/MenuScene.unity"
+              "Assets/Scenes/AnimalBattleScene.unity",
+              "Assets/Scenes/BeginningScene.unity",
+              "Assets/Scenes/BossBattleScene.unity",
+              "Assets/Scenes/MenuScene.unity",
+              "Assets/Scenes/VillageScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -609,8 +675,11 @@
           {
             "name": "BoxCollider",
             "scenes": [
+              "Assets/Scenes/AnimalBattleScene.unity",
               "Assets/Scenes/BeginningScene.unity",
-              "Assets/Scenes/MenuScene.unity"
+              "Assets/Scenes/BossBattleScene.unity",
+              "Assets/Scenes/MenuScene.unity",
+              "Assets/Scenes/VillageScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -619,7 +688,8 @@
             "name": "CapsuleCollider",
             "scenes": [
               "Assets/Scenes/AnimalBattleScene.unity",
-              "Assets/Scenes/BeginningScene.unity"
+              "Assets/Scenes/BossBattleScene.unity",
+              "Assets/Scenes/VillageScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -627,7 +697,8 @@
           {
             "name": "CharacterController",
             "scenes": [
-              "Assets/Scenes/BeginningScene.unity"
+              "Assets/Scenes/BeginningScene.unity",
+              "Assets/Scenes/VillageScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -642,7 +713,11 @@
             "name": "MeshCollider",
             "scenes": [
               "Assets/Scenes/AnimalBattleScene.unity",
-              "Assets/Scenes/BeginningScene.unity"
+              "Assets/Scenes/BeginningScene.unity",
+              "Assets/Scenes/BossBattleScene.unity",
+              "Assets/Scenes/IntroScene.unity",
+              "Assets/Scenes/VillageScene.unity",
+              "Assets/Scenes/WinningScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -656,7 +731,7 @@
           {
             "name": "Rigidbody",
             "scenes": [
-              "Assets/Scenes/BeginningScene.unity"
+              "Assets/Scenes/AnimalBattleScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -664,7 +739,9 @@
           {
             "name": "SphereCollider",
             "scenes": [
-              "Assets/Scenes/BeginningScene.unity"
+              "Assets/Scenes/BeginningScene.unity",
+              "Assets/Scenes/BossBattleScene.unity",
+              "Assets/Scenes/VillageScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -811,7 +888,13 @@
           {
             "name": "Font",
             "scenes": [
-              "Assets/Scenes/MenuScene.unity"
+              "Assets/Scenes/AnimalBattleScene.unity",
+              "Assets/Scenes/BeginningScene.unity",
+              "Assets/Scenes/BossBattleScene.unity",
+              "Assets/Scenes/IntroScene.unity",
+              "Assets/Scenes/MenuScene.unity",
+              "Assets/Scenes/VillageScene.unity",
+              "Assets/Scenes/WinningScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -860,7 +943,13 @@
           {
             "name": "Canvas",
             "scenes": [
-              "Assets/Scenes/MenuScene.unity"
+              "Assets/Scenes/AnimalBattleScene.unity",
+              "Assets/Scenes/BeginningScene.unity",
+              "Assets/Scenes/BossBattleScene.unity",
+              "Assets/Scenes/IntroScene.unity",
+              "Assets/Scenes/MenuScene.unity",
+              "Assets/Scenes/VillageScene.unity",
+              "Assets/Scenes/WinningScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -874,7 +963,13 @@
           {
             "name": "CanvasRenderer",
             "scenes": [
-              "Assets/Scenes/MenuScene.unity"
+              "Assets/Scenes/AnimalBattleScene.unity",
+              "Assets/Scenes/BeginningScene.unity",
+              "Assets/Scenes/BossBattleScene.unity",
+              "Assets/Scenes/IntroScene.unity",
+              "Assets/Scenes/MenuScene.unity",
+              "Assets/Scenes/VillageScene.unity",
+              "Assets/Scenes/WinningScene.unity"
             ],
             "dependencyType": 0,
             "icon": null

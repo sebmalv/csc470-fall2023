@@ -3,7 +3,20 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Bush
+  - GameManager
+  - BushOne
+  - BushTwo
+  - BushThree
+  - BushFour
+  - SpawnOne
+  - SpawnTwo
+  - SpawnThree
+  - arrow
+  - Cave
+  - Villager
+  - CaveTwo
   layers:
   - Default
   - TransparentFX

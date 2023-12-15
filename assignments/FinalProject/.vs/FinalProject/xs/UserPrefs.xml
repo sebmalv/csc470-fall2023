@@ -1,16 +1,24 @@
 ﻿<Properties StartupConfiguration="{E1456745-ED92-4EB6-8905-E64DC1E47277}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/GameManagerScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/goNext.cs">
     <Files>
-      <File FileName="Assets/MainPlayerScript.cs" Line="32" Column="10" />
-      <File FileName="Assets/GameManagerScript.cs" Line="52" Column="1" />
-      <File FileName="Assets/FollowPlayerScript.cs" />
-      <File FileName="Assets/ButtonsPressed.cs" />
+      <File FileName="Assets/MainPlayerScript.cs" Line="44" Column="45" />
+      <File FileName="Assets/FollowPlayerScript.cs" Line="23" Column="12" />
+      <File FileName="Assets/ButtonsPressed.cs" Line="45" Column="6" />
+      <File FileName="Assets/GameManagerScript.cs" Line="55" Column="1" />
+      <File FileName="Assets/animalBattleScript.cs" Line="217" Column="1" />
+      <File FileName="Assets/BossBattleManangerscript.cs" Line="6" Column="1" />
+      <File FileName="Assets/arrowScript.cs" Line="16" Column="39" />
+      <File FileName="Assets/VillageManager.cs" Line="19" Column="1" />
+      <File FileName="Assets/wonScript.cs" Line="6" Column="1" />
+      <File FileName="Assets/goNext.cs" Line="4" Column="35" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="FinalProject" expanded="True">
-            <Node name="Assets" expanded="True" selected="True" />
+            <Node name="Assets" expanded="True">
+              <Node name="goNext.cs" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>

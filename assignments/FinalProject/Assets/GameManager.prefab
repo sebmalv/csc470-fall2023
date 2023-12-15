@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2046746125619120697
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7715757131985102975}
+  - component: {fileID: 8208174342345812373}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: GameManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7715757131985102975
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2046746125619120697}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 22.724428, y: -7.458712, z: -32.215755}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8208174342345812373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2046746125619120697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6618d72e40c3e4f6e9a412930b2fbbd2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  battleScene: 
+  animalsToPickFrom:
+  - {fileID: 2687355071400374915, guid: c3aea19cfff0e4a40902215c269dc771, type: 3}
+  - {fileID: 3866193004039421874, guid: 9415f8a0e16ce445ba963b0bdccf8ecf, type: 3}
+  - {fileID: 3845189259528026753, guid: bc40891bb8faf4c2da7a6c7dfcec066b, type: 3}
+  - {fileID: 2632826934572735505, guid: 3d29b8f7e8f4b42138c3361662989c4c, type: 3}
+  - {fileID: 174536242262532560, guid: 1bc187141c0694605a6500d3f81783c8, type: 3}
+  - {fileID: 5042116031522554016, guid: f8beb89d69d194fe0b88f72717bd4201, type: 3}
+  - {fileID: 5615579415096696770, guid: 0d6914840f7bb47b6a417298e20c9de0, type: 3}
+  - {fileID: 6530998966273641680, guid: a3749dfcfab6f4d58b75d0723738ca4f, type: 3}
+  mainPlayer: {fileID: 0}
+  spawnPoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  bushes:
+  - 
+  - 
+  - 
+  - 

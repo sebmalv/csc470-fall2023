@@ -1,10 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MainPlayerScript : MonoBehaviour
 {
-    public float moveSpeed = 5f;
+    float moveSpeed;
     public float jumpHeight = 7f;
     private CharacterController controller;
     private Vector3 velocity;
@@ -14,10 +15,15 @@ public class MainPlayerScript : MonoBehaviour
     public GameObject healthParticles;
     public GameObject cameraObject;
     Vector3 oldCamPos;
+    GameObject gameManager;
 
     void Start()
+
     {
+        moveSpeed = 45;
         controller = GetComponent<CharacterController>();
+        gameManager = GameObject.FindGameObjectWithTag("GameManager");
+
     }
 
     public void healthChange(string posorneg)
@@ -26,10 +32,29 @@ public class MainPlayerScript : MonoBehaviour
     }
     public void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Corn")
+        if (other.gameObject.tag == "Bush")
         {
-            healthChange("positive");
+            gameManager.GetComponent<GameManagerScript>().isItTimeToBattle();
         }
+        if (other.gameObject.tag == "Cave")
+        {
+            string village = "VillageScene";
+            SceneManager.LoadScene(village);
+        }
+        if (other.gameObject.tag == "CaveTwo")
+        {
+            string village = "BossBattleScene";
+            SceneManager.LoadScene(village);
+        }
+        if (other.gameObject.tag == "Villager")
+        {
+            Transform tr= other.gameObject.GetComponent<Transform>();
+            transform.LookAt(tr);
+            gameManager.GetComponent<VillageManager>().villagerEncounter();
+        }
+
+
+
 
     }
     public void setIsWithMe()

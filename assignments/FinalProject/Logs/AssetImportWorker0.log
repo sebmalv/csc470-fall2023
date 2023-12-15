@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62144
+54053
 Successfully changed project path to: /Users/sebmalvarenga/unity projects/csc470-fall2023/assignments/FinalProject
 /Users/sebmalvarenga/unity projects/csc470-fall2023/assignments/FinalProject
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -56,12 +56,12 @@ Successfully changed project path to: /Users/sebmalvarenga/unity projects/csc470
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [4633839104] Host "[IP] 10.31.17.106 [Port] 0 [Flags] 2 [Guid] 2327099741 [EditorId] 2327099741 [Version] 1048832 [Id] OSXEditor(0,Sebastians-MacBook-Air-6.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [4596413952] Host "[IP] 10.34.1.123 [Port] 0 [Flags] 2 [Guid] 2662009929 [EditorId] 2662009929 [Version] 1048832 [Id] OSXEditor(0,Sebastians-MacBook-Air-6.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [4633839104] Host "[IP] 10.31.17.106 [Port] 0 [Flags] 2 [Guid] 2327099741 [EditorId] 2327099741 [Version] 1048832 [Id] OSXEditor(0,Sebastians-MacBook-Air-6.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [4596413952] Host "[IP] 10.34.1.123 [Port] 0 [Flags] 2 [Guid] 2662009929 [EditorId] 2662009929 [Version] 1048832 [Id] OSXEditor(0,Sebastians-MacBook-Air-6.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 11.86 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 9.90 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.9f1 (ea401c316338)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.9f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -76,46 +76,46 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.9f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.9f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2022.3.9f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56992
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56998
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.9f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.075021 seconds.
-- Loaded All Assemblies, in  2.605 seconds
+Registered in 0.004118 seconds.
+- Loaded All Assemblies, in  1.309 seconds
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.959 seconds
-Domain Reload Profiling: 4585ms
-	BeginReloadAssembly (654ms)
+- Finished resetting the current domain, in  1.100 seconds
+Domain Reload Profiling: 2409ms
+	BeginReloadAssembly (289ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (5ms)
-	RebuildCommonClasses (222ms)
-	RebuildNativeTypeToScriptingClass (66ms)
-	initialDomainReloadingComplete (584ms)
-	LoadAllAssembliesAndSetupDomain (1079ms)
-		LoadAssemblies (661ms)
+		CreateAndSetChildDomain (3ms)
+	RebuildCommonClasses (166ms)
+	RebuildNativeTypeToScriptingClass (43ms)
+	initialDomainReloadingComplete (190ms)
+	LoadAllAssembliesAndSetupDomain (620ms)
+		LoadAssemblies (289ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1062ms)
-			TypeCache.Refresh (1054ms)
-				TypeCache.ScanAssembly (1004ms)
-			ScanForSourceGeneratedMonoScriptInfo (2ms)
-			ResolveRequiredComponents (2ms)
-	FinalizeReload (1981ms)
+		AnalyzeDomain (612ms)
+			TypeCache.Refresh (606ms)
+				TypeCache.ScanAssembly (568ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1102ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1435ms)
+		SetupLoadedEditorAssemblies (847ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (50ms)
-			SetLoadedEditorAssemblies (36ms)
+			InitializePlatformSupportModulesInManaged (35ms)
+			SetLoadedEditorAssemblies (26ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (17ms)
-			ProcessInitializeOnLoadAttributes (1067ms)
-			ProcessInitializeOnLoadMethodAttributes (265ms)
+			BeforeProcessingInitializeOnLoad (10ms)
+			ProcessInitializeOnLoadAttributes (548ms)
+			ProcessInitializeOnLoadMethodAttributes (227ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -123,8 +123,8 @@ Domain Reload Profiling: 4585ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  4.467 seconds
-Refreshing native plugins compatible for Editor in 2.46 ms, found 2 plugins.
+- Loaded All Assemblies, in  1.908 seconds
+Refreshing native plugins compatible for Editor in 5.42 ms, found 2 plugins.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -132,48 +132,48 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.676 seconds
-Domain Reload Profiling: 8144ms
-	BeginReloadAssembly (1128ms)
+- Finished resetting the current domain, in  1.377 seconds
+Domain Reload Profiling: 3286ms
+	BeginReloadAssembly (298ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (40ms)
+		DisableScriptedObjects (17ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (220ms)
-	RebuildCommonClasses (297ms)
-	RebuildNativeTypeToScriptingClass (83ms)
-	initialDomainReloadingComplete (270ms)
-	LoadAllAssembliesAndSetupDomain (2686ms)
-		LoadAssemblies (1596ms)
+		CreateAndSetChildDomain (59ms)
+	RebuildCommonClasses (131ms)
+	RebuildNativeTypeToScriptingClass (38ms)
+	initialDomainReloadingComplete (95ms)
+	LoadAllAssembliesAndSetupDomain (1346ms)
+		LoadAssemblies (573ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1519ms)
-			TypeCache.Refresh (1223ms)
-				TypeCache.ScanAssembly (1128ms)
-			ScanForSourceGeneratedMonoScriptInfo (215ms)
-			ResolveRequiredComponents (39ms)
-	FinalizeReload (3679ms)
+		AnalyzeDomain (906ms)
+			TypeCache.Refresh (795ms)
+				TypeCache.ScanAssembly (738ms)
+			ScanForSourceGeneratedMonoScriptInfo (72ms)
+			ResolveRequiredComponents (27ms)
+	FinalizeReload (1378ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2677ms)
+		SetupLoadedEditorAssemblies (914ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (52ms)
-			SetLoadedEditorAssemblies (68ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (8ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (354ms)
-			ProcessInitializeOnLoadAttributes (2094ms)
-			ProcessInitializeOnLoadMethodAttributes (106ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			BeforeProcessingInitializeOnLoad (109ms)
+			ProcessInitializeOnLoadAttributes (748ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (19ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
 Launching external process: /Applications/Unity/Hub/Editor/2022.3.9f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.29 seconds
-Refreshing native plugins compatible for Editor in 2.68 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.12 seconds
+Refreshing native plugins compatible for Editor in 1.70 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3127 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (53.9 KB). Loaded Objects now: 3590.
-Memory consumption went from 228.2 MB to 228.1 MB.
-Total: 8.763810 ms (FindLiveObjects: 0.347428 ms CreateObjectMapping: 0.212141 ms MarkObjects: 7.951248 ms  DeleteObjects: 0.250414 ms)
+Unloading 3133 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (54.0 KB). Loaded Objects now: 3596.
+Memory consumption went from 228.6 MB to 228.5 MB.
+Total: 5.552407 ms (FindLiveObjects: 0.311011 ms CreateObjectMapping: 0.164767 ms MarkObjects: 4.831165 ms  DeleteObjects: 0.243755 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -187,971 +187,291 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 3.13 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (3.0 KB). Loaded Objects now: 3590.
-Memory consumption went from 176.4 MB to 176.4 MB.
-Total: 14.115887 ms (FindLiveObjects: 0.330456 ms CreateObjectMapping: 0.237338 ms MarkObjects: 13.499586 ms  DeleteObjects: 0.045850 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
 Received Import Request.
-  Time since last request: 457146.857993 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Sunny Days.mat
-  artifactKey: Guid(6522f30e342599e4e9dd4cc2cc03c830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Sunny Days.mat using Guid(6522f30e342599e4e9dd4cc2cc03c830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16ebc1b60450dd5e7edaf2794ca07358') in 0.482001 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.001658 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Materials/Small Crate_diffuse.mat
-  artifactKey: Guid(22262639920f43d6be32430e4e58350d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Small Crate_diffuse.mat using Guid(22262639920f43d6be32430e4e58350d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ea54515b7788c1c48bba50e0907eefd') in 1.228183 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000316 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Logo Scene.mat
-  artifactKey: Guid(c719e38f25a9480abd2480ab621a2949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Logo Scene.mat using Guid(c719e38f25a9480abd2480ab621a2949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2123053f0ee0bb7badbc37b8c1ec4882') in 0.026690 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000311 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Metalic Green.mat
-  artifactKey: Guid(8b29aaa3eec7468097ff07adfcf29ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Metalic Green.mat using Guid(8b29aaa3eec7468097ff07adfcf29ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0b5c8b553e476b0d27a6df3bae31e36') in 0.059481 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000142 seconds.
-  path: Assets/VoxelAnimals/Assets/Prefabs/Lion.prefab
-  artifactKey: Guid(d2edcf95960b81249bf3f4a30ad1a908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VoxelAnimals/Assets/Prefabs/Lion.prefab using Guid(d2edcf95960b81249bf3f4a30ad1a908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e95293a54eb10705ad2461f25ddcc7d') in 0.106614 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 57
-========================================================================
-Received Import Request.
-  Time since last request: 0.002130 seconds.
-  path: Assets/VoxelAnimals/Assets/Materials/Palette.mat
-  artifactKey: Guid(c7e294e05bde65747aa9d03b71fd2096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VoxelAnimals/Assets/Materials/Palette.mat using Guid(c7e294e05bde65747aa9d03b71fd2096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '136fe34551234eb782f19f03b12e4ae7') in 0.029244 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Anton.ttf
-  artifactKey: Guid(997a43b767814dd0a7642ec9b78cba41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Anton.ttf using Guid(997a43b767814dd0a7642ec9b78cba41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8650d67645baede95e05662484071d77') in 0.093851 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Soft Mask.mat
-  artifactKey: Guid(42df1c7856584b6b8db9a509b6b10074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Soft Mask.mat using Guid(42df1c7856584b6b8db9a509b6b10074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23aa60cfc74250a7ce9ad4dd2f81fc1a') in 0.063968 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 22.343185 seconds.
-  path: Assets/VoxelAnimals/Assets/Prefabs/Flower.prefab
-  artifactKey: Guid(2bc164917408ec6408959ca79846a6f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VoxelAnimals/Assets/Prefabs/Flower.prefab using Guid(2bc164917408ec6408959ca79846a6f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8138c53a3e3a8f1752f854e236afad3f') in 0.021786 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 1.967576 seconds.
-  path: Assets/VoxelAnimals/Assets/Prefabs/Flower.prefab
-  artifactKey: Guid(2bc164917408ec6408959ca79846a6f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VoxelAnimals/Assets/Prefabs/Flower.prefab using Guid(2bc164917408ec6408959ca79846a6f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '631ab23cbf59e818e1418ce473af048d') in 0.018192 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 7.884469 seconds.
-  path: Assets/VoxelAnimals/Assets/Prefabs/Flower.prefab
-  artifactKey: Guid(2bc164917408ec6408959ca79846a6f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VoxelAnimals/Assets/Prefabs/Flower.prefab using Guid(2bc164917408ec6408959ca79846a6f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea0b7027bc9f0eab954cdc3dc0c49f0b') in 0.018296 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 54.738397 seconds.
-  path: Assets/VoxelAnimals/Assets/Prefabs/Flower.prefab
-  artifactKey: Guid(2bc164917408ec6408959ca79846a6f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VoxelAnimals/Assets/Prefabs/Flower.prefab using Guid(2bc164917408ec6408959ca79846a6f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4742f00bbbbb22f9c7bd8cf658c608e2') in 0.019338 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 2.728449 seconds.
-  path: Assets/VoxelAnimals/Assets/Prefabs/Flower.prefab
-  artifactKey: Guid(2bc164917408ec6408959ca79846a6f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VoxelAnimals/Assets/Prefabs/Flower.prefab using Guid(2bc164917408ec6408959ca79846a6f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3a57d9d6c7101c69ca015d7fef01ba0') in 0.014711 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 5.757069 seconds.
-  path: Assets/VoxelAnimals/Assets/Prefabs/Flower.prefab
-  artifactKey: Guid(2bc164917408ec6408959ca79846a6f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VoxelAnimals/Assets/Prefabs/Flower.prefab using Guid(2bc164917408ec6408959ca79846a6f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acfa8b12a5325218b7bf9dd38dc6793d') in 0.015226 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 79.077942 seconds.
-  path: Assets/VoxelAnimals/Assets/Prefabs/Tree2.prefab
-  artifactKey: Guid(9191e921815f6c946a6ec587468d5343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VoxelAnimals/Assets/Prefabs/Tree2.prefab using Guid(9191e921815f6c946a6ec587468d5343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f91670e8ed766da01a4f5d1af8167d18') in 0.032608 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 2.168664 seconds.
-  path: Assets/VoxelAnimals/Assets/Prefabs/Tree2.prefab
-  artifactKey: Guid(9191e921815f6c946a6ec587468d5343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VoxelAnimals/Assets/Prefabs/Tree2.prefab using Guid(9191e921815f6c946a6ec587468d5343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd63882e773c754b943bf3c10346c503b') in 0.102133 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 6.718112 seconds.
-  path: Assets/VoxelAnimals/Assets/Prefabs/Tree2.prefab
-  artifactKey: Guid(9191e921815f6c946a6ec587468d5343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VoxelAnimals/Assets/Prefabs/Tree2.prefab using Guid(9191e921815f6c946a6ec587468d5343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2db55669198e5177cffccdc5db779a5') in 0.025748 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 14.064229 seconds.
-  path: Assets/VoxelAnimals/Assets/Prefabs/Tree2.prefab
-  artifactKey: Guid(9191e921815f6c946a6ec587468d5343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VoxelAnimals/Assets/Prefabs/Tree2.prefab using Guid(9191e921815f6c946a6ec587468d5343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '666d1dfab1b8cbd39bec4758a1e40261') in 0.018543 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 3.033569 seconds.
-  path: Assets/VoxelAnimals/Assets/Prefabs/Tree2.prefab
-  artifactKey: Guid(9191e921815f6c946a6ec587468d5343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VoxelAnimals/Assets/Prefabs/Tree2.prefab using Guid(9191e921815f6c946a6ec587468d5343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f83ac933e624d0301e1da5c084e21f7') in 0.017343 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 44.986690 seconds.
-  path: Assets/FlowerBush.prefab
-  artifactKey: Guid(d12094400e8ae49e7b42a3f567861d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlowerBush.prefab using Guid(d12094400e8ae49e7b42a3f567861d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89be104ce12d4a846db771ce7ed0d2e1') in 0.033156 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 29
-========================================================================
-Received Import Request.
-  Time since last request: 641.094959 seconds.
-  path: Assets/CaveColor.mat
-  artifactKey: Guid(0b9e7e076e6e24fc2bcbaead1f8ba22d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CaveColor.mat using Guid(0b9e7e076e6e24fc2bcbaead1f8ba22d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff45cee505e9b2c645745f1024b2e590') in 0.639621 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  3.649 seconds
-Refreshing native plugins compatible for Editor in 2.53 ms, found 2 plugins.
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  6.988 seconds
-Domain Reload Profiling: 10639ms
-	BeginReloadAssembly (1302ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (40ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (563ms)
-	RebuildCommonClasses (549ms)
-	RebuildNativeTypeToScriptingClass (105ms)
-	initialDomainReloadingComplete (136ms)
-	LoadAllAssembliesAndSetupDomain (1556ms)
-		LoadAssemblies (2037ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (74ms)
-			TypeCache.Refresh (34ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (31ms)
-	FinalizeReload (6990ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (3217ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (27ms)
-			SetLoadedEditorAssemblies (38ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (365ms)
-			ProcessInitializeOnLoadAttributes (2663ms)
-			ProcessInitializeOnLoadMethodAttributes (116ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (25ms)
-Refreshing native plugins compatible for Editor in 6.75 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3106 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3638.
-Memory consumption went from 231.7 MB to 231.7 MB.
-Total: 15.058812 ms (FindLiveObjects: 1.124198 ms CreateObjectMapping: 0.498008 ms MarkObjects: 13.315369 ms  DeleteObjects: 0.115870 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  2.039 seconds
-Refreshing native plugins compatible for Editor in 3.08 ms, found 2 plugins.
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  4.652 seconds
-Domain Reload Profiling: 6693ms
-	BeginReloadAssembly (649ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (21ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (327ms)
-	RebuildCommonClasses (149ms)
-	RebuildNativeTypeToScriptingClass (55ms)
-	initialDomainReloadingComplete (260ms)
-	LoadAllAssembliesAndSetupDomain (926ms)
-		LoadAssemblies (1095ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (47ms)
-			TypeCache.Refresh (17ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (23ms)
-	FinalizeReload (4655ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1814ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (26ms)
-			SetLoadedEditorAssemblies (16ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (189ms)
-			ProcessInitializeOnLoadAttributes (1500ms)
-			ProcessInitializeOnLoadMethodAttributes (68ms)
-			AfterProcessingInitializeOnLoad (14ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (21ms)
-Refreshing native plugins compatible for Editor in 4.18 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3107 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3641.
-Memory consumption went from 232.3 MB to 232.2 MB.
-Total: 57.879702 ms (FindLiveObjects: 0.557767 ms CreateObjectMapping: 7.263835 ms MarkObjects: 49.930858 ms  DeleteObjects: 0.121958 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 757.558836 seconds.
-  path: Assets/Quetzalcoatl.prefab
-  artifactKey: Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quetzalcoatl.prefab using Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16460ac75991bc94a7932305539debd3') in 0.373409 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 6.878678 seconds.
-  path: Assets/Quetzalcoatl.prefab
-  artifactKey: Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quetzalcoatl.prefab using Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ae422fa0040fb6cb4a9680ddc0c916d') in 0.017522 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 70.774628 seconds.
-  path: Assets/Quetzalcoatl.prefab
-  artifactKey: Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quetzalcoatl.prefab using Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c8b5d3b67311cce9000cc2e5aa2f91b') in 0.030396 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 12.682622 seconds.
-  path: Assets/Quetzalcoatl.prefab
-  artifactKey: Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quetzalcoatl.prefab using Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88aa5eeb0d3cdf77394887461daa658b') in 0.025002 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 5.415992 seconds.
-  path: Assets/Quetzalcoatl.prefab
-  artifactKey: Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quetzalcoatl.prefab using Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '020dc30e8ce0f031d4de3e197ad5b0ce') in 0.022734 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 22.986516 seconds.
-  path: Assets/Quetzalcoatl.prefab
-  artifactKey: Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quetzalcoatl.prefab using Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd566ae020d7f210b236fc2b7a3e93c7a') in 0.018851 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 2.278278 seconds.
-  path: Assets/Quetzalcoatl.prefab
-  artifactKey: Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quetzalcoatl.prefab using Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61cb065a686ba5ac414dc34c9aec918e') in 0.017247 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 2.730096 seconds.
-  path: Assets/Quetzalcoatl.prefab
-  artifactKey: Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quetzalcoatl.prefab using Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bf2bbbf2202b383fb0f51dbd51a7ba6') in 0.026936 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 6.256717 seconds.
-  path: Assets/Quetzalcoatl.prefab
-  artifactKey: Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quetzalcoatl.prefab using Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '164e667bedb84182bc5974cf2433f5a7') in 0.023325 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 1.537545 seconds.
-  path: Assets/Quetzalcoatl.prefab
-  artifactKey: Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quetzalcoatl.prefab using Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b397edbfd891c1fedc245687f755531') in 0.027995 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 7.535581 seconds.
-  path: Assets/Quetzalcoatl.prefab
-  artifactKey: Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quetzalcoatl.prefab using Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9548b763b59e455e09a1bb3fe69f39e4') in 0.023897 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 2.345325 seconds.
-  path: Assets/Quetzalcoatl.prefab
-  artifactKey: Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quetzalcoatl.prefab using Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e8daaf6d3c522259fca3ca8439d32a8') in 0.017581 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 3.001400 seconds.
-  path: Assets/Quetzalcoatl.prefab
-  artifactKey: Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quetzalcoatl.prefab using Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00568a5ee2f314aafeef4d6f64d6ce40') in 0.021786 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 14.404293 seconds.
-  path: Assets/Quetzalcoatl.prefab
-  artifactKey: Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quetzalcoatl.prefab using Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f811a9454514addbb02c64cd463b3b66') in 0.014442 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 2.206127 seconds.
-  path: Assets/Quetzalcoatl.prefab
-  artifactKey: Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quetzalcoatl.prefab using Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4f897d73594a8afba39b29a354cf093') in 0.014151 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 5.712965 seconds.
-  path: Assets/Quetzalcoatl.prefab
-  artifactKey: Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quetzalcoatl.prefab using Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '028d2624d56339f8c033dd336a6d2db0') in 0.018728 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 1.356253 seconds.
-  path: Assets/Quetzalcoatl.prefab
-  artifactKey: Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quetzalcoatl.prefab using Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59f1677e4bbd7b5e1490bc92515c8e48') in 0.015458 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 4.780859 seconds.
-  path: Assets/Quetzalcoatl.prefab
-  artifactKey: Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quetzalcoatl.prefab using Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a0faa6ac413eed0e8ebed4ad1011490') in 0.019705 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 2.075393 seconds.
-  path: Assets/Quetzalcoatl.prefab
-  artifactKey: Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quetzalcoatl.prefab using Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '727eb58190b0270c1365c6c6b60b9f43') in 0.016874 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 3.531578 seconds.
-  path: Assets/Quetzalcoatl.prefab
-  artifactKey: Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quetzalcoatl.prefab using Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab5df3c3030943ada32d01aa25f51536') in 0.018897 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 4.739049 seconds.
-  path: Assets/Quetzalcoatl.prefab
-  artifactKey: Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quetzalcoatl.prefab using Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '642b9c4047ea0a459103c5ba9b82bffb') in 0.014672 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 2.546035 seconds.
-  path: Assets/Quetzalcoatl.prefab
-  artifactKey: Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quetzalcoatl.prefab using Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53a19670afc4d178f7c7c88f5665f543') in 0.016530 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 14.796285 seconds.
-  path: Assets/Quetzalcoatl.prefab
-  artifactKey: Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quetzalcoatl.prefab using Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd05ad50f1a3dcc1e93098fced036337c') in 0.016792 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 2.520763 seconds.
-  path: Assets/Quetzalcoatl.prefab
-  artifactKey: Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quetzalcoatl.prefab using Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9835908d613d4ad0999bdf14fc98ccd3') in 0.018857 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 2.478593 seconds.
-  path: Assets/Quetzalcoatl.prefab
-  artifactKey: Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quetzalcoatl.prefab using Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd68aebc8eeb9450ede34207b313ca1a') in 0.014833 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 3.277982 seconds.
-  path: Assets/Quetzalcoatl.prefab
-  artifactKey: Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quetzalcoatl.prefab using Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec26794c97cff40bd0f6b0abce91a55a') in 0.015202 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 1.482150 seconds.
-  path: Assets/Quetzalcoatl.prefab
-  artifactKey: Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quetzalcoatl.prefab using Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9eb4d19c3b8351d3db4622469a3d11e') in 0.016108 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 1.780805 seconds.
-  path: Assets/Quetzalcoatl.prefab
-  artifactKey: Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quetzalcoatl.prefab using Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbcf293fce2b933ed06f137a27476e30') in 0.018368 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 5.719314 seconds.
-  path: Assets/Quetzalcoatl.prefab
-  artifactKey: Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quetzalcoatl.prefab using Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32461de0c279bb8ff61f362f77dfe6f2') in 0.017879 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 4.520149 seconds.
-  path: Assets/Quetzalcoatl.prefab
-  artifactKey: Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quetzalcoatl.prefab using Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04991a0e31334f82380b839290443330') in 0.017283 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 3.738821 seconds.
-  path: Assets/Quetzalcoatl.prefab
-  artifactKey: Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quetzalcoatl.prefab using Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a8de1f2f77d6edf821f81d5e057e21b') in 0.019365 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 4.451572 seconds.
-  path: Assets/Quetzalcoatl.prefab
-  artifactKey: Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quetzalcoatl.prefab using Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9f8aaacab4e1f6ef1562d7dbeb8d80b') in 0.018053 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 2.262852 seconds.
-  path: Assets/Quetzalcoatl.prefab
-  artifactKey: Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quetzalcoatl.prefab using Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c909a2ed89f1b3c7da1f365560730b0c') in 0.018992 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 6.228541 seconds.
-  path: Assets/Quetzalcoatl.prefab
-  artifactKey: Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quetzalcoatl.prefab using Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e04cf8bc7a50ed01d0d8261ff9ee4fee') in 0.013721 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 4.630396 seconds.
-  path: Assets/Quetzalcoatl.prefab
-  artifactKey: Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quetzalcoatl.prefab using Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '833ab016b6d5770bf4adf4c613669599') in 0.012923 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 3.688950 seconds.
-  path: Assets/Quetzalcoatl.prefab
-  artifactKey: Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quetzalcoatl.prefab using Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6107e872087e32a99fbf2b29f0a95b5') in 0.014786 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 6.511281 seconds.
-  path: Assets/Quetzalcoatl.prefab
-  artifactKey: Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quetzalcoatl.prefab using Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71364d29c4293900aa4422d92a41ae21') in 0.016894 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 1.918980 seconds.
-  path: Assets/Quetzalcoatl.prefab
-  artifactKey: Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quetzalcoatl.prefab using Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65d0cfe941a96e4f527373f505df8d51') in 0.018678 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 2.339436 seconds.
-  path: Assets/Quetzalcoatl.prefab
-  artifactKey: Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quetzalcoatl.prefab using Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d3b95d296a39d80770337e663bbfc7a') in 0.014208 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 3.315700 seconds.
-  path: Assets/Quetzalcoatl.prefab
-  artifactKey: Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quetzalcoatl.prefab using Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85e21239db638a1aad05a12b9e15f74a') in 0.015806 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 8.738223 seconds.
-  path: Assets/Quetzalcoatl.prefab
-  artifactKey: Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quetzalcoatl.prefab using Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89e45816db0bc725d94121ef415025be') in 0.018198 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 2.105453 seconds.
-  path: Assets/Quetzalcoatl.prefab
-  artifactKey: Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quetzalcoatl.prefab using Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bea9d84fbe05c835a2661590d8caf8f') in 0.017026 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 3.534489 seconds.
-  path: Assets/Quetzalcoatl.prefab
-  artifactKey: Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quetzalcoatl.prefab using Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '416ba110e64837e08382cb6e84e04bd2') in 0.017541 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 5.547528 seconds.
-  path: Assets/Quetzalcoatl.prefab
-  artifactKey: Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quetzalcoatl.prefab using Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '815de63412423bca2e813430bb789e44') in 0.052270 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 7.320384 seconds.
-  path: Assets/Quetzalcoatl.prefab
-  artifactKey: Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quetzalcoatl.prefab using Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ac03dab02afb1aaf1dea3cd349f687a') in 0.014478 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 1.487474 seconds.
-  path: Assets/Quetzalcoatl.prefab
-  artifactKey: Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quetzalcoatl.prefab using Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a525420a76aa9198ec29c5aee06bccc9') in 0.014638 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 4.133743 seconds.
-  path: Assets/Quetzalcoatl.prefab
-  artifactKey: Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quetzalcoatl.prefab using Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c21fbd49586379a9ea2c2dceeb2dd9c') in 0.019290 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 5.126818 seconds.
-  path: Assets/Quetzalcoatl.prefab
-  artifactKey: Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quetzalcoatl.prefab using Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd1f6942a76100fae031ceda64787c26') in 0.016240 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 4.340596 seconds.
-  path: Assets/Quetzalcoatl.prefab
-  artifactKey: Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quetzalcoatl.prefab using Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5d4de7440f3c81189396d14cd8489a1') in 0.020288 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 3.808219 seconds.
-  path: Assets/Quetzalcoatl.prefab
-  artifactKey: Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quetzalcoatl.prefab using Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a066df54f3b42e9fabd7220c1bc50cdf') in 0.015913 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 2.314402 seconds.
-  path: Assets/Quetzalcoatl.prefab
-  artifactKey: Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quetzalcoatl.prefab using Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b266263a544abcd3ea6d2838caacdf69') in 0.015047 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 3.052499 seconds.
-  path: Assets/Quetzalcoatl.prefab
-  artifactKey: Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quetzalcoatl.prefab using Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db3b38d759f353e820f091a2710973b4') in 0.018455 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 3.403179 seconds.
-  path: Assets/Quetzalcoatl.prefab
-  artifactKey: Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quetzalcoatl.prefab using Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37626955931a9901ef6af40690a3402e') in 0.038566 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 1.494853 seconds.
-  path: Assets/Quetzalcoatl.prefab
-  artifactKey: Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quetzalcoatl.prefab using Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d24ffbfcc5a2811460fbdc9a1a5a9f1') in 0.017563 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 23.444309 seconds.
-  path: Assets/Quetzalcoatl.prefab
-  artifactKey: Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quetzalcoatl.prefab using Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f1fc090db9e8f316dc04b714c43bbbc') in 0.019637 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 3.920433 seconds.
-  path: Assets/Quetzalcoatl.prefab
-  artifactKey: Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quetzalcoatl.prefab using Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0c2922b522570f89574df39b9845782') in 0.018935 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 3.829637 seconds.
-  path: Assets/Quetzalcoatl.prefab
-  artifactKey: Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quetzalcoatl.prefab using Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90876a02dbfe00209cb59cc6afa29e2b') in 0.016494 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 1.381731 seconds.
-  path: Assets/Quetzalcoatl.prefab
-  artifactKey: Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quetzalcoatl.prefab using Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12b8fc1127cf08661da2a5770c65fea6') in 0.018484 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 7.168805 seconds.
-  path: Assets/Quetzalcoatl.prefab
-  artifactKey: Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quetzalcoatl.prefab using Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3514c40b5567e94a7a517acb5e7c7eff') in 0.014583 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 3.900143 seconds.
-  path: Assets/Quetzalcoatl.prefab
-  artifactKey: Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quetzalcoatl.prefab using Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22e5320a057a623ed223529904915d3f') in 0.019499 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 10.841630 seconds.
-  path: Assets/Quetzalcoatl.prefab
-  artifactKey: Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quetzalcoatl.prefab using Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '835be96fdc9d29e23179e0dc2aa0203c') in 0.021888 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 1.930301 seconds.
-  path: Assets/Quetzalcoatl.prefab
-  artifactKey: Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quetzalcoatl.prefab using Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cdadbaed8250ee3191ac8053ab85889') in 0.016421 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 4.728270 seconds.
-  path: Assets/Quetzalcoatl.prefab
-  artifactKey: Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quetzalcoatl.prefab using Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ae1b1d38b5ffac2ad989dbb5d34da97') in 0.015067 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 1.530198 seconds.
-  path: Assets/Quetzalcoatl.prefab
-  artifactKey: Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quetzalcoatl.prefab using Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59e8041f77c63d496bf79eae507ccce5') in 0.013281 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 6.894046 seconds.
-  path: Assets/Quetzalcoatl.prefab
-  artifactKey: Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quetzalcoatl.prefab using Guid(b08f95698d2e949c082fe804754ca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '745e9a9f4ee7f2ee5615fc677857d4d6') in 0.031364 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 70.050846 seconds.
-  path: Assets/CaveColor.mat
-  artifactKey: Guid(0b9e7e076e6e24fc2bcbaead1f8ba22d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CaveColor.mat using Guid(0b9e7e076e6e24fc2bcbaead1f8ba22d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a9db161cea0353a8f4ca7dc8dbdaa9d') in 0.113790 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 11.207836 seconds.
-  path: Assets/Scenes/BeginningScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/BeginningScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eb1239dd38ea5925b0310d683403f87') in 0.001244 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 67.441803 seconds.
+  Time since last request: 850000.326542 seconds.
   path: Assets/Scenes/AnimalBattleScene.unity
   artifactKey: Guid(da4f53c6439d84e598945ef09e55db87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/AnimalBattleScene.unity using Guid(da4f53c6439d84e598945ef09e55db87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93281a1fb4774e36cf55c05c9e7cb1c5') in 0.001180 seconds
+Start importing Assets/Scenes/AnimalBattleScene.unity using Guid(da4f53c6439d84e598945ef09e55db87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88b81b2e5e21c781e11e581383b46ce0') in 0.003117 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (0.8 KB). Loaded Objects now: 3596.
+Memory consumption went from 175.4 MB to 175.4 MB.
+Total: 21.771664 ms (FindLiveObjects: 0.670547 ms CreateObjectMapping: 0.187330 ms MarkObjects: 20.837883 ms  DeleteObjects: 0.074344 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 769.911566 seconds.
+  path: Assets/Scenes/VillageScene.unity
+  artifactKey: Guid(35815f0d605d548c18f06911758ab0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/VillageScene.unity using Guid(35815f0d605d548c18f06911758ab0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b9c8f8dcc84f0523c5e4eae400c8684') in 0.043461 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 125.481984 seconds.
-  path: Assets/VoxelAnimals/Assets/Models/Cat.fbx
-  artifactKey: Guid(99c74493bf8e38f4898ddecbf36b4291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VoxelAnimals/Assets/Models/Cat.fbx using Guid(99c74493bf8e38f4898ddecbf36b4291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ecc7def1aa3e63f169f77d3b0f8e13c') in 0.329441 seconds
+  Time since last request: 48.848279 seconds.
+  path: Assets/arrow.prefab
+  artifactKey: Guid(28302c4d9c5864e28aa6e2c89b50bb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/arrow.prefab using Guid(28302c4d9c5864e28aa6e2c89b50bb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a55be70ce1cb3383798feef062fa13c4') in 0.938400 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 41
+Number of asset objects unloaded after import = 23
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000543 seconds.
-  path: Assets/VoxelAnimals/Assets/Models/Tree.fbx
-  artifactKey: Guid(2497ec1f36bba8545b156eb2b78620e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VoxelAnimals/Assets/Models/Tree.fbx using Guid(2497ec1f36bba8545b156eb2b78620e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0913639f496858e241d632af52cc8499') in 0.042232 seconds
+  Time since last request: 0.000122 seconds.
+  path: Assets/Snake.prefab
+  artifactKey: Guid(0d6914840f7bb47b6a417298e20c9de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Snake.prefab using Guid(0d6914840f7bb47b6a417298e20c9de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0228a7566adfbbb0708078e5aadf4a8a') in 0.027010 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 47
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000112 seconds.
-  path: Assets/VoxelAnimals/Assets/Models/Lion.fbx
-  artifactKey: Guid(81ce4a7ffd46313429701ca47e11a638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VoxelAnimals/Assets/Models/Lion.fbx using Guid(81ce4a7ffd46313429701ca47e11a638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd67fe92ccf0ad685d5f3949dfd218754') in 0.243849 seconds
+  Time since last request: 0.000100 seconds.
+  path: Assets/Racoon.prefab
+  artifactKey: Guid(3d29b8f7e8f4b42138c3361662989c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Racoon.prefab using Guid(3d29b8f7e8f4b42138c3361662989c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad25761aedc9d8873113a7d4154d6741') in 0.027358 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 41
+Number of asset objects unloaded after import = 94
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001368 seconds.
-  path: Assets/VoxelAnimals/Assets/Models/Flower.fbx
-  artifactKey: Guid(de63e1a2041c5b641a4afc981818bb1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VoxelAnimals/Assets/Models/Flower.fbx using Guid(de63e1a2041c5b641a4afc981818bb1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76a730c7395e5f2d1e483a5b8e90f76b') in 0.033743 seconds
+  Time since last request: 0.000153 seconds.
+  path: Assets/Toad.prefab
+  artifactKey: Guid(1bc187141c0694605a6500d3f81783c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toad.prefab using Guid(1bc187141c0694605a6500d3f81783c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ae7cdc413f443c0dbae8da9104f4c0c') in 0.014957 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 58
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000113 seconds.
-  path: Assets/VoxelAnimals/Assets/Models/Penguin.fbx
-  artifactKey: Guid(4265787259ee6f846a16b2b460d9bb8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VoxelAnimals/Assets/Models/Penguin.fbx using Guid(4265787259ee6f846a16b2b460d9bb8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60cbd01ecbc11e3908eb4b728d04c4bb') in 0.216961 seconds
+  Time since last request: 0.000150 seconds.
+  path: Assets/FinalQuetz.prefab
+  artifactKey: Guid(a611cf4eb689c44359675ad6deda4d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FinalQuetz.prefab using Guid(a611cf4eb689c44359675ad6deda4d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cb35dfeb7bf609346fa23d0d6f195c6') in 0.019725 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
-========================================================================
-Received Import Request.
-  Time since last request: 0.004207 seconds.
-  path: Assets/VoxelAnimals/Assets/Models/Dog.fbx
-  artifactKey: Guid(23087f4be52d60c488a49d499dfc98fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VoxelAnimals/Assets/Models/Dog.fbx using Guid(23087f4be52d60c488a49d499dfc98fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8052c16b7fc69430e2498248168bd62a') in 0.324435 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 46
+Number of asset objects unloaded after import = 61
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  3.099 seconds
-Refreshing native plugins compatible for Editor in 4.76 ms, found 2 plugins.
+- Loaded All Assemblies, in  0.843 seconds
+Refreshing native plugins compatible for Editor in 1.22 ms, found 2 plugins.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  4.853 seconds
-Domain Reload Profiling: 7954ms
-	BeginReloadAssembly (1190ms)
+- Finished resetting the current domain, in  3.081 seconds
+Domain Reload Profiling: 3925ms
+	BeginReloadAssembly (376ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (36ms)
+		DisableScriptedObjects (12ms)
 		BackupInstance (0ms)
-		ReleaseScriptingObjects (1ms)
-		CreateAndSetChildDomain (399ms)
-	RebuildCommonClasses (502ms)
-	RebuildNativeTypeToScriptingClass (73ms)
-	initialDomainReloadingComplete (127ms)
-	LoadAllAssembliesAndSetupDomain (1208ms)
-		LoadAssemblies (1529ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (140ms)
+	RebuildCommonClasses (63ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (343ms)
+		LoadAssemblies (498ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (154ms)
-			TypeCache.Refresh (64ms)
-				TypeCache.ScanAssembly (3ms)
-			ScanForSourceGeneratedMonoScriptInfo (47ms)
-			ResolveRequiredComponents (35ms)
-	FinalizeReload (4854ms)
+		AnalyzeDomain (20ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (3082ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1653ms)
+		SetupLoadedEditorAssemblies (1133ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (24ms)
+			InitializePlatformSupportModulesInManaged (14ms)
 			SetLoadedEditorAssemblies (11ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (166ms)
-			ProcessInitializeOnLoadAttributes (1377ms)
-			ProcessInitializeOnLoadMethodAttributes (71ms)
+			BeforeProcessingInitializeOnLoad (188ms)
+			ProcessInitializeOnLoadAttributes (865ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 2.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3112 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (29.9 KB). Loaded Objects now: 3609.
+Memory consumption went from 231.3 MB to 231.3 MB.
+Total: 8.326108 ms (FindLiveObjects: 0.725009 ms CreateObjectMapping: 0.612632 ms MarkObjects: 6.850035 ms  DeleteObjects: 0.135196 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 647.998264 seconds.
+  path: Assets/Scenes/BossBattleScene.unity
+  artifactKey: Guid(66a8c42752c6341009fca84d726e4125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/BossBattleScene.unity using Guid(66a8c42752c6341009fca84d726e4125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7888bbae3fbdbc15294209f140a7cedf') in 0.007338 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.564 seconds
+Refreshing native plugins compatible for Editor in 1.15 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.109 seconds
+Domain Reload Profiling: 1674ms
+	BeginReloadAssembly (199ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (69ms)
+	RebuildCommonClasses (64ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (247ms)
+		LoadAssemblies (312ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (20ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1110ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (678ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (542ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 2.17 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3112 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (29.8 KB). Loaded Objects now: 3612.
+Memory consumption went from 231.0 MB to 230.9 MB.
+Total: 5.723591 ms (FindLiveObjects: 0.450544 ms CreateObjectMapping: 0.254652 ms MarkObjects: 4.947393 ms  DeleteObjects: 0.069098 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 46.537728 seconds.
+  path: Assets/Scenes/WinningScene.unity
+  artifactKey: Guid(ccd03b9cc6a364974b0a7d0439f676d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/WinningScene.unity using Guid(ccd03b9cc6a364974b0a7d0439f676d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd180c241ec975e234bb5a27211f20b5a') in 0.005104 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.958618 seconds.
+  path: Assets/Scenes/VillageScene.unity
+  artifactKey: Guid(35815f0d605d548c18f06911758ab0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/VillageScene.unity using Guid(35815f0d605d548c18f06911758ab0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c53b363a784fef45e27f5e9486e95b6e') in 0.005057 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.812 seconds
+Refreshing native plugins compatible for Editor in 1.84 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.527 seconds
+Domain Reload Profiling: 4341ms
+	BeginReloadAssembly (270ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (90ms)
+	RebuildCommonClasses (89ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (383ms)
+		LoadAssemblies (479ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (26ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (3529ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1465ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (17ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (209ms)
+			ProcessInitializeOnLoadAttributes (1135ms)
+			ProcessInitializeOnLoadMethodAttributes (77ms)
 			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (17ms)
-Refreshing native plugins compatible for Editor in 3.95 ms, found 2 plugins.
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 3.60 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3106 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (29.9 KB). Loaded Objects now: 3650.
-Memory consumption went from 231.9 MB to 231.8 MB.
-Total: 11.140491 ms (FindLiveObjects: 0.439699 ms CreateObjectMapping: 0.354846 ms MarkObjects: 10.238134 ms  DeleteObjects: 0.104872 ms)
+Unloading 3112 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (29.8 KB). Loaded Objects now: 3615.
+Memory consumption went from 230.5 MB to 230.5 MB.
+Total: 9.052172 ms (FindLiveObjects: 0.528471 ms CreateObjectMapping: 0.321146 ms MarkObjects: 8.110956 ms  DeleteObjects: 0.089010 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -1168,29 +488,59 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 1173.832270 seconds.
-  path: Assets/OutsideRing.mat
-  artifactKey: Guid(1a4e16e5990d440b1818376c1ff0170a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OutsideRing.mat using Guid(1a4e16e5990d440b1818376c1ff0170a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b19d4cee2674ce82d7b66965fb21d6a2') in 0.550372 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 89.454956 seconds.
-  path: Assets/OutsideRing.mat
-  artifactKey: Guid(1a4e16e5990d440b1818376c1ff0170a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OutsideRing.mat using Guid(1a4e16e5990d440b1818376c1ff0170a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '497e09181d56ba3c65ac53c7cd222091') in 0.034687 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 5.65 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 6.77 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 0 unused Assets / (0 B). Loaded Objects now: 3651.
-Memory consumption went from 184.4 MB to 184.4 MB.
-Total: 316.912238 ms (FindLiveObjects: 9.239815 ms CreateObjectMapping: 0.376797 ms MarkObjects: 307.272217 ms  DeleteObjects: 0.020898 ms)
+Unloading 0 unused Assets / (0 B). Loaded Objects now: 3615.
+Memory consumption went from 182.4 MB to 182.4 MB.
+Total: 19.236794 ms (FindLiveObjects: 0.369267 ms CreateObjectMapping: 0.193752 ms MarkObjects: 18.655741 ms  DeleteObjects: 0.015888 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.09 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (0 B). Loaded Objects now: 3615.
+Memory consumption went from 182.0 MB to 182.0 MB.
+Total: 4.584356 ms (FindLiveObjects: 0.441962 ms CreateObjectMapping: 0.200368 ms MarkObjects: 3.927749 ms  DeleteObjects: 0.012469 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (0 B). Loaded Objects now: 3615.
+Memory consumption went from 182.0 MB to 182.0 MB.
+Total: 6.584052 ms (FindLiveObjects: 0.301302 ms CreateObjectMapping: 0.182544 ms MarkObjects: 6.078415 ms  DeleteObjects: 0.019496 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
