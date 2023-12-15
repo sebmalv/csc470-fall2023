@@ -8,13 +8,13 @@ As you can see here are the three main screen buttons.
 Here is both the purpose statement and the dictionary to study.
 
 
-<img width="804" alt="Screen Shot 2023-12-15 at 4 30 55 AM" src="https://github.com/sebmalv/csc470-fall2023/assets/143835182/1b213119-74ad-4f41-a401-839e3eabf935">
+<img width="823" alt="Screen Shot 2023-12-15 at 4 30 55 AM" src="https://github.com/sebmalv/csc470-fall2023/assets/143835182/1b213119-74ad-4f41-a401-839e3eabf935">
 
 
 The dictionary on the main menu allows for it to be closed at the users convenience as you can see with the close button
 
 
-<img width="413" alt="Screen Shot 2023-12-15 at 4 37 41 AM" src="https://github.com/sebmalv/csc470-fall2023/assets/143835182/3e0f2998-0d7b-4651-bcdd-24f5fab0fc26">
+<img width="823" alt="Screen Shot 2023-12-15 at 4 37 41 AM" src="https://github.com/sebmalv/csc470-fall2023/assets/143835182/3e0f2998-0d7b-4651-bcdd-24f5fab0fc26">
 
 
 Once the user decides to start the game there is a small intro scene which communicates what the goal is to the user, as well as who the main boss will be.
